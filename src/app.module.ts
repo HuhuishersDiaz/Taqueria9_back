@@ -3,9 +3,17 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
+import { MongooseModule } from '@nestjs/mongoose';
+import { ProductsModule } from './products/products.module';
+import { ProductSchema } from './products/schemas/product.schema';
+import { ProductsService } from './products/products.service';
+import { ProductsController } from './products/products.controller';
+import { DevicesModule } from './devices/devices.module';
 
 @Module({
-  imports: [AuthModule, UsersModule],
+  imports: [AuthModule, UsersModule,ProductsModule,
+  MongooseModule.forRoot("mongodb://localhost:27017/enginedb"),
+  DevicesModule],
   controllers: [AppController],
   providers: [AppService],
 })
