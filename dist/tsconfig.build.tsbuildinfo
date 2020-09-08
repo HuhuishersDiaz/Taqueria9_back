@@ -1741,8 +1741,38 @@
         "signature": "8857a2a959eb0ee870d0adb812e0d41a0e12796ec0c1d85f8416e82bcf51ca03",
         "affectsGlobalScope": false
       },
+      "../src/devices/interfaces/device.interface.ts": {
+        "version": "7ee82c0a5eb6bbaf90d42355f030bb29ce995025751b0c5a4c8fc05f934eec1c",
+        "signature": "c75031724bc72a36e7800211dd9507daffd2da884d788899e4da827563776b9f",
+        "affectsGlobalScope": false
+      },
+      "../src/devices/dto/device.dto.ts": {
+        "version": "60051be4cd216a7b588ab93cf611bba647cf988dd7b487baabeeeb642129dad8",
+        "signature": "233df9a05fd7a1f2b5836287ffdbdc71f12d6d8f79dec4729ffcc2d489c67789",
+        "affectsGlobalScope": false
+      },
+      "../src/devices/devices.service.ts": {
+        "version": "de8e408fc6cc618c5ea24224ece245707e863a335096032eb61af85b49211952",
+        "signature": "dfa438a531c52795da473eb464c571cf6679c626ec9aa3fcae4559a684b0838f",
+        "affectsGlobalScope": false
+      },
+      "../src/devices/devices.controller.ts": {
+        "version": "fbbe4b54f38cdfd89fad3b901864cd6674a45d5161313401d5cfe7ab85867179",
+        "signature": "f52c546f4ce9c61eb8932754e893e734bbfb98c71db3940e821805116a2b3386",
+        "affectsGlobalScope": false
+      },
+      "../src/devices/schemas/device.schema.ts": {
+        "version": "cbc95d5314f5682803380c45e0f467f0d65752f89892df42172d89feebe4957c",
+        "signature": "6fa4358c1957e1c90983f8fdd64e89e37e5e9c260723d197e5c9c5e3ba75b03a",
+        "affectsGlobalScope": false
+      },
+      "../src/devices/devices.module.ts": {
+        "version": "640d203dbf9692d592a1521d70666f5226a3ecb25131360211fd5a7ed180aa7e",
+        "signature": "e815fc8b6f04b7836ec152fb2db31d34c30eacda6b83d07d698fa99fb9c928ba",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "9937e342256674a3acfe3fe911096d8b7e296da4c2b634d4f5b74e5fce51c3c7",
+        "version": "e828956a761b92f664b847decdbab99c864956f3fcdc085a79a9a88bc1e8af6f",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -5831,6 +5861,7 @@
         "../src/app.controller.ts",
         "../src/app.service.ts",
         "../src/auth/auth.module.ts",
+        "../src/devices/devices.module.ts",
         "../src/products/products.controller.ts",
         "../src/products/products.module.ts",
         "../src/products/products.service.ts",
@@ -5917,6 +5948,63 @@
         "../node_modules/@types/passport-local/index.d.ts",
         "../node_modules/rxjs/index.d.ts",
         "../src/auth/auth.service.ts"
+      ],
+      "../src/devices/devices.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/devices/devices.service.ts",
+        "../src/devices/dto/device.dto.ts"
+      ],
+      "../src/devices/devices.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/devices/devices.controller.ts",
+        "../src/devices/devices.service.ts",
+        "../src/devices/schemas/device.schema.ts"
+      ],
+      "../src/devices/devices.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/devices/dto/device.dto.ts",
+        "../src/devices/interfaces/device.interface.ts"
+      ],
+      "../src/devices/dto/device.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/devices/interfaces/device.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/devices/schemas/device.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
@@ -9676,6 +9764,21 @@
         "../node_modules/@types/passport-local/index.d.ts",
         "../src/auth/auth.service.ts"
       ],
+      "../src/devices/devices.controller.ts": [
+        "../src/devices/devices.service.ts",
+        "../src/devices/dto/device.dto.ts"
+      ],
+      "../src/devices/devices.service.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../src/devices/dto/device.dto.ts",
+        "../src/devices/interfaces/device.interface.ts"
+      ],
+      "../src/devices/interfaces/device.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/devices/schemas/device.schema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
       "../src/products/interfaces/product.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
       ],
@@ -10110,6 +10213,12 @@
       "../src/auth/jwt.strategy.ts",
       "../src/auth/local-auth.guard.ts",
       "../src/auth/local.strategy.ts",
+      "../src/devices/devices.controller.ts",
+      "../src/devices/devices.module.ts",
+      "../src/devices/devices.service.ts",
+      "../src/devices/dto/device.dto.ts",
+      "../src/devices/interfaces/device.interface.ts",
+      "../src/devices/schemas/device.schema.ts",
       "../src/main.ts",
       "../src/products/dto/product.dto.ts",
       "../src/products/interfaces/product.interface.ts",
