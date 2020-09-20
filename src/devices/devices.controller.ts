@@ -1,4 +1,4 @@
-import { Controller, HttpStatus, Post, Res, Body, Get } from '@nestjs/common';
+import { Controller, HttpStatus, Post, Res, Body, Get, Query } from '@nestjs/common';
 import { DevicesService } from './devices.service';
 import { DeviceDTO } from './dto/device.dto';
 /* import jwtauthguard authguard */
@@ -21,6 +21,12 @@ export class DevicesController {
         const devices = await this.device.getAll();
         // LOAD ALL PRODUCTS & SHOW RESULT IN DIALOG TERMINAL
         console.log(devices);
+        return res.status(HttpStatus.OK).json(devices);
+    }
+
+    @Get('status')
+    async GetByStatus(@Res() res, @Query('status') boton:boolean){
+        const devices = await this.device.getByStatus(boton);
         return res.status(HttpStatus.OK).json(devices);
     }
 
