@@ -15,6 +15,6 @@ export class DevicesService {
         return await this.DeviceModel.find();
     }
     async getByStatus(boton): Promise<any> {
-        return await this.DeviceModel.find(boton).exec();
+        return await this.DeviceModel.find({boton: boton}).exec();
     }
 }
