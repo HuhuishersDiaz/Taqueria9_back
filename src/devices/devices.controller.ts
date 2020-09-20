@@ -24,8 +24,8 @@ export class DevicesController {
         return res.status(HttpStatus.OK).json(devices);
     }
 
-    @Get('status')
-    async GetByStatus(@Res() res, @Query('status') boton:boolean){
+    @Get('boton')
+    async GetByStatus(@Res() res, @Query('boton') boton:boolean){
         const devices = await this.device.getByStatus(boton);
         return res.status(HttpStatus.OK).json(devices);
     }
