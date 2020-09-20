@@ -11,4 +11,7 @@ export class DevicesService {
         const createdDevice = new this.DeviceModel(DeviceDTO);
         return createdDevice.save();
     }
+    async getAll(): Promise<any>{
+        return await this.DeviceModel.find();
+    }
 }
