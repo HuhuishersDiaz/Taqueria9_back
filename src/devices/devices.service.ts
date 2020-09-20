@@ -14,7 +14,7 @@ export class DevicesService {
     async getAll(): Promise<any>{
         return await this.DeviceModel.find();
     }
-    async getByStatus(boton): Promise<any> {
+    async getByStatus(boton:boolean): Promise<any> {
         return await this.DeviceModel.find({boton: boton}).exec();
     }
 }
