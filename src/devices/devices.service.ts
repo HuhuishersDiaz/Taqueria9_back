@@ -13,8 +13,9 @@ export class DevicesService {
         return createdDevice.save();
     }
 
-    async send(devices:Array<JSON>): Promise<any> {
-        return await this.DeviceModel.create(devices);
+    async send(DeviceDTO: DeviceDTO): Promise<any> {
+        const sendDevice = new this.DeviceModel(DeviceDTO);
+        return sendDevice.save();
     }
     async getAll(): Promise<any>{
         return await this.DeviceModel.find();
