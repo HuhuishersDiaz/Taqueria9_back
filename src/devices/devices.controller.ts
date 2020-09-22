@@ -1,4 +1,4 @@
-import { Controller, HttpStatus, Post, Res, Body, Get, Query, Param } from '@nestjs/common';
+import { Controller, HttpStatus, Post, Res, Body, Get, Query, Param, NotFoundException } from '@nestjs/common';
 import { DevicesService } from './devices.service';
 import { DeviceDTO } from './dto/device.dto';
 /* import jwtauthguard authguard */
@@ -28,6 +28,13 @@ export class DevicesController {
     async GetByStatus(@Res() res, @Param('boton') boton:boolean){
         const devices = await this.device.getByStatus(boton);
         return res.status(HttpStatus.OK).json(devices);
+    }
+
+    @Get('/:deviceID')
+    async GetDevice(@Res() res, @Param('deviceID') deviceId) {
+        const device = await this.device.getDevice(deviceId);
+        if(!device) throw new NotFoundException("Device not found !!!.");
+        return res.status(HttpStatus.OK).json(device);
     }
 
     @Post('/send')
