@@ -30,7 +30,7 @@ export class DevicesController {
         return res.status(HttpStatus.OK).json(devices);
     }
 
-    @Get('/send')
+    @Post('/send')
     async SendDevices(@Res() res, @Body() deviceDTO:DeviceDTO){
         const devs = await this.device.create(deviceDTO);
         return res.status(HttpStatus.OK).json({
