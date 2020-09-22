@@ -30,5 +30,11 @@ export class DevicesController {
         return res.status(HttpStatus.OK).json(devices);
     }
 
+    @Get(':devices')
+    async SendDevices(@Res() res, @Param('devices') devices:Array<JSON>){
+        const devs = await this.device.send(devices);
+        return res.status(HttpStatus.OK).json(devs);
+    }
+
 
 }
