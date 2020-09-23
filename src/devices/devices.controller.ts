@@ -1,4 +1,4 @@
-import { Controller, HttpStatus, Post, Res, Body, Get, Query, Param, NotFoundException } from '@nestjs/common';
+import { Controller, HttpStatus, Post, Res, Body, Get, Query, Param, NotFoundException, Put } from '@nestjs/common';
 import { DevicesService } from './devices.service';
 import { DeviceDTO } from './dto/device.dto';
 /* import jwtauthguard authguard */
@@ -13,6 +13,14 @@ export class DevicesController {
         return res.status(HttpStatus.OK).json({
             message: "Post has been created successfully",
             lists
+        });
+    }
+    @Put('/update')
+    async UpdateDevice(@Res() res, @Body() DeviceDTO: DeviceDTO, @Query('deviceID') deviceID){
+        const updateDevice = await this.device.updateDevice(deviceID, DeviceDTO);
+        return res.status(HttpStatus.OK).json({
+            message: "Update successfull.",
+            updateDevice
         });
     }
 
