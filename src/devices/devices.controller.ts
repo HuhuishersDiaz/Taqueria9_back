@@ -16,8 +16,8 @@ export class DevicesController {
         });
     }
     @Put('/update')
-    async UpdateDevice(@Res() res, @Body() DeviceDTO: DeviceDTO, @Query('deviceID') deviceID){
-        const updateDevice = await this.device.updateDevice(deviceID, DeviceDTO);
+    async UpdateDevice(@Res() res, @Body() DeviceDTO: DeviceDTO, @Query('device') device){
+        const updateDevice = await this.device.updateDevice(device, DeviceDTO);
         return res.status(HttpStatus.OK).json({
             message: "Update successfull.",
             updateDevice

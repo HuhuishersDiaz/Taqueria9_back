@@ -30,8 +30,8 @@ export class DevicesService {
     async getByStatus(boton:boolean): Promise<any> {
         return await this.DeviceModel.find({boton: boton}).exec();
     }
-    async updateDevice(deviceID:any, createdDevice: DeviceDTO): Promise<Device>{
-        const updateDevice = await this.DeviceModel.findOneAndUpdate(deviceID, createdDevice);
+    async updateDevice(device:any, createdDevice: DeviceDTO): Promise<Device>{
+        const updateDevice = await this.DeviceModel.findOneAndUpdate(device, createdDevice);
         return updateDevice;
     }
 }
