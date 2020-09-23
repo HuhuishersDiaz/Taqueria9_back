@@ -30,7 +30,7 @@ export class DevicesController {
         return res.status(HttpStatus.OK).json(devices);
     }
 
-    @Get(':deviceID')
+    @Get('/device/:deviceID')
     async GetDevice(@Res() res, @Param('deviceID') deviceId:string) {
         const device = await this.device.getDevice(deviceId);
         if(!device) throw new NotFoundException("Device not found !!!.");
