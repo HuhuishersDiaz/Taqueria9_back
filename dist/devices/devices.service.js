@@ -16,6 +16,7 @@ exports.DevicesService = void 0;
 const common_1 = require("@nestjs/common");
 const mongoose_1 = require("mongoose");
 const mongoose_2 = require("@nestjs/mongoose");
+const product_dto_1 = require("../products/dto/product.dto");
 let DevicesService = class DevicesService {
     constructor(DeviceModel) {
         this.DeviceModel = DeviceModel;
@@ -23,6 +24,23 @@ let DevicesService = class DevicesService {
     async create(DeviceDTO) {
         const createdDevice = new this.DeviceModel(DeviceDTO);
         return createdDevice.save();
+    }
+    async send(DeviceDTO) {
+        const sendDevice = new this.DeviceModel(DeviceDTO);
+        return sendDevice.save();
+    }
+    async getAll() {
+        return await this.DeviceModel.find();
+    }
+    async getDevice(devi) {
+        return await this.DeviceModel.find({ device: devi }).exec();
+    }
+    async getByStatus(boton) {
+        return await this.DeviceModel.find({ boton: boton }).exec();
+    }
+    async updateDevice(device, createdDevice) {
+        const updateDevice = await this.DeviceModel.findOneAndUpdate(device, createdDevice);
+        return updateDevice;
     }
 };
 DevicesService = __decorate([

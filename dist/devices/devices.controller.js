@@ -27,6 +27,35 @@ let DevicesController = class DevicesController {
             lists
         });
     }
+    async UpdateDevice(res, DeviceDTO, device) {
+        const updateDevice = await this.device.updateDevice(device, DeviceDTO);
+        return res.status(common_1.HttpStatus.OK).json({
+            message: "Update successfull.",
+            updateDevice
+        });
+    }
+    async GetAll(res) {
+        const devices = await this.device.getAll();
+        console.log(devices);
+        return res.status(common_1.HttpStatus.OK).json(devices);
+    }
+    async GetByStatus(res, boton) {
+        const devices = await this.device.getByStatus(boton);
+        return res.status(common_1.HttpStatus.OK).json(devices);
+    }
+    async GetDevice(res, deviceId) {
+        const device = await this.device.getDevice(deviceId);
+        if (!device)
+            throw new common_1.NotFoundException("Device not found !!!.");
+        return res.status(common_1.HttpStatus.OK).json(device);
+    }
+    async SendDevices(res, deviceDTO) {
+        const devs = await this.device.create(deviceDTO);
+        return res.status(common_1.HttpStatus.OK).json({
+            message: "Post has been created successfully",
+            devs
+        });
+    }
 };
 __decorate([
     common_1.Post('/create'),
@@ -35,6 +64,41 @@ __decorate([
     __metadata("design:paramtypes", [Object, device_dto_1.DeviceDTO]),
     __metadata("design:returntype", Promise)
 ], DevicesController.prototype, "addDevice", null);
+__decorate([
+    common_1.Put('/update'),
+    __param(0, common_1.Res()), __param(1, common_1.Body()), __param(2, common_1.Query('device')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, device_dto_1.DeviceDTO, Object]),
+    __metadata("design:returntype", Promise)
+], DevicesController.prototype, "UpdateDevice", null);
+__decorate([
+    common_1.Get('all'),
+    __param(0, common_1.Res()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", Promise)
+], DevicesController.prototype, "GetAll", null);
+__decorate([
+    common_1.Get(':boton'),
+    __param(0, common_1.Res()), __param(1, common_1.Param('boton')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Boolean]),
+    __metadata("design:returntype", Promise)
+], DevicesController.prototype, "GetByStatus", null);
+__decorate([
+    common_1.Get('/device/:deviceID'),
+    __param(0, common_1.Res()), __param(1, common_1.Param('deviceID')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, String]),
+    __metadata("design:returntype", Promise)
+], DevicesController.prototype, "GetDevice", null);
+__decorate([
+    common_1.Post('/send'),
+    __param(0, common_1.Res()), __param(1, common_1.Body()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, device_dto_1.DeviceDTO]),
+    __metadata("design:returntype", Promise)
+], DevicesController.prototype, "SendDevices", null);
 DevicesController = __decorate([
     common_1.Controller('devices'),
     __metadata("design:paramtypes", [devices_service_1.DevicesService])
