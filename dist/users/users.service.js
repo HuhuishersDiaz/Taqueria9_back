@@ -16,7 +16,7 @@ let UsersService = class UsersService {
         this.users = [
             {
                 userId: 1,
-                username: 'root',
+                username: 'John',
                 password: 'root',
             },
         ];
