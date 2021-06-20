@@ -15,4 +15,12 @@ export class MembersService {
         return createdMember.save();
     }
 
+    async getAll(): Promise<any>{
+        return await this.MemberModel.find();
+    }
+
+    async getMember(mem:string): Promise<any>{
+        return await this.MemberModel.find({phone:mem}).exec();
+    }
+
 }
