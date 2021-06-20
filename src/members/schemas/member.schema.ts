@@ -9,6 +9,7 @@ export const MemberSchema = new mongoose.Schema({
     email: String,
     phone: String,
     talents:Number,
+    occupation:String,
 },
 {
     versionKey:false

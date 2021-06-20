@@ -8,4 +8,5 @@ export class MemberDTO {
     readonly email:string;
     readonly phone:string;
     readonly talents: number;
+    readonly occupation:string;
 }
