@@ -7,4 +7,5 @@ export class MemberDTO {
     readonly reference3:string;
     readonly email:string;
     readonly phone:string;
+    readonly talents: number;
 }

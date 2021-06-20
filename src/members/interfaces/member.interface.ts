@@ -7,5 +7,6 @@ export interface Member extends Document {
     readonly reference3:string;
     readonly email:string;
     readonly phone:string;
+    readonly talents: number;
     // integrate createAt this date that member register
 }
