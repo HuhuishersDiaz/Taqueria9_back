@@ -21,7 +21,7 @@ export class MembersService {
     }
 
     async setSequence(value:number): Promise<any>{
-        return await this.MemberModel.findOneAndUpdate({_id:'itemId'},{seqValue:value});
+        return await this.MemberModel.findOneAndUpdate({_id:'itemId'},{seqValue:value},{new: true});
     }
 
     async getAll(): Promise<any>{
