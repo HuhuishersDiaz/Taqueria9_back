@@ -3,7 +3,6 @@ import * as mongoose from 'mongoose';
 const AutoIncrement = require('mongoose-sequence')(mongoose);
 
 export const MemberSchema = new mongoose.Schema({
-    _id:Number,
     name:String,
     address: String,
     reference1:String,
@@ -14,8 +13,8 @@ export const MemberSchema = new mongoose.Schema({
     talents:Number,
     occupation:String,
 },
-{   _id: false,
+{   
     versionKey:false
 });
 
-MemberSchema.plugin( AutoIncrement);
+MemberSchema.plugin( AutoIncrement, {inc_field: 'id'});
