@@ -1,4 +1,4 @@
-import { Prop } from '@nestjs/mongoose';
+
 import * as mongoose from 'mongoose';
 const AutoIncrement = require('mongoose-sequence')(mongoose);
 

@@ -9,10 +9,8 @@ import { ProductSchema } from './products/schemas/product.schema';
 import { ProductsService } from './products/products.service';
 import { ProductsController } from './products/products.controller';
 import { DevicesModule } from './devices/devices.module';
-import { MembersModule } from './members/members.module';
 import { TalentsModule } from './talents/talents.module';
-import { connection } from 'mongoose';
-
+import { MembersModule } from './members/members.module';
 
 @Module({
   imports: [AuthModule, UsersModule,ProductsModule,
