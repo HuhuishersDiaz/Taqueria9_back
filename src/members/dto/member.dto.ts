@@ -1,6 +1,6 @@
 //import { ApiProperty } from '@nest/swagger';
 export class MemberDTO {
-    readonly _id:string;
+    readonly _id:number;
     readonly name:string;
     readonly address:string;
     readonly reference1:string;
