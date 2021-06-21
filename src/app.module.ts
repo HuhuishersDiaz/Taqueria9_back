@@ -14,7 +14,7 @@ import { MembersModule } from './members/members.module';
 
 @Module({
   imports: [AuthModule, UsersModule,ProductsModule,
-  MongooseModule.forRoot("mongodb://localhost:27017/enginedb"),
+  MongooseModule.forRoot("mongodb://localhost:27017/enginedb",{useFindAndModify:false}),
   DevicesModule,
   MembersModule,
   TalentsModule],
