@@ -16,7 +16,7 @@ export class MembersService {
     }
 
     async getSequenceNextValue(): Promise<any>{
-         return await this.MemberModel.findOneAndUpdate({id: 'itemId'},{ $inc: {seqName:1}});
+         return await this.MemberModel.findOneAndUpdate({_id: 'itemId'},{ $inc: {seqValue:1}});
     }
 
     async getAll(): Promise<any>{
