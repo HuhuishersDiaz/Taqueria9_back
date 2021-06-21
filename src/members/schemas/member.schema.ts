@@ -1,7 +1,7 @@
 
 import * as mongoose from 'mongoose';
 const AutoIncrement = require('mongoose-sequence')(mongoose);
-mongoose.set('useFindAndModify', false);
+//mongoose.set('useFindAndModify', false);
 export const MemberSchema = new mongoose.Schema({
 
     name:String,
@@ -18,4 +18,4 @@ export const MemberSchema = new mongoose.Schema({
     versionKey:false
 });
 
-MemberSchema.plugin( AutoIncrement, {inc_field: 'id'});
+//MemberSchema.plugin( AutoIncrement, {inc_field: 'id'});
