@@ -16,7 +16,7 @@ export class MembersService {
     }
 
     async getSequenceNextValue(): Promise<any>{
-         const secDoc = this.MemberModel.findOneAndUpdate({_id: 'itemId'},{ $inc: {seqValue:1}});
+         const secDoc = this.MemberModel.findOneAndUpdate({_id: 'itemId'},{ $inc: {seqValue:1},new:true});
          return secDoc;
     }
 
