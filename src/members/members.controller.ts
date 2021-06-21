@@ -19,8 +19,8 @@ export class MembersController {
         return res.status(HttpStatus.OK).json(secuence);
     }
     @Get('/set/:value')
-    async setSecuence(@Res() Res, @Param('Value') value:number){
-        const sec = await this.member.setSequence(value);
+    async setSecuence(@Res() Res, @Param('value') Value:number){
+        const sec = await this.member.setSequence(Value);
         if(!sec) throw new NotFoundException("not found !!!.");
         return Res.status(HttpStatus.OK).json(sec);
     }
