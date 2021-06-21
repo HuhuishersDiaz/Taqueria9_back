@@ -11,6 +11,8 @@ import { ProductsController } from './products/products.controller';
 import { DevicesModule } from './devices/devices.module';
 import { MembersModule } from './members/members.module';
 import { TalentsModule } from './talents/talents.module';
+import { connection } from 'mongoose';
+
 
 @Module({
   imports: [AuthModule, UsersModule,ProductsModule,
