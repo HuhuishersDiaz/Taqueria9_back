@@ -3,7 +3,7 @@ import * as mongoose from 'mongoose';
 const AutoIncrement = require('mongoose-sequence')(mongoose);
 //mongoose.set('useFindAndModify', false);
 export const MemberSchema = new mongoose.Schema({
-    _id:Number,
+    _id:String,
     name:String,
     address: String,
     reference1:String,
