@@ -1,6 +1,6 @@
 import { Prop } from '@nestjs/mongoose';
 import * as mongoose from 'mongoose';
-const AutoInncrement = require('mongoose-sequence')(mongoose);
+const AutoIncrement = require('mongoose-sequence')(mongoose);
 
 export const MemberSchema = new mongoose.Schema({
     _id:Number,
@@ -18,4 +18,4 @@ export const MemberSchema = new mongoose.Schema({
     versionKey:false
 });
 
-MemberSchema.plugin( AutoInncrement);
+MemberSchema.plugin( AutoIncrement);
