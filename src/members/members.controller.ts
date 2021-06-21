@@ -18,6 +18,12 @@ export class MembersController {
         const secuence = await this.member.getSequenceNextValue();
         return res.status(HttpStatus.OK).json(secuence);
     }
+    @Get('/set/:value')
+    async setSecuence(@Res() Res, @Param('Value') value:number){
+        const sec = await this.member.setSequence(value);
+        if(!sec) throw new NotFoundException("not found !!!.");
+        return Res.status(HttpStatus.OK).json(sec);
+    }
     @Get('all')
     async GetAll(@Res() res){
         const members = await this.member.getAll();
