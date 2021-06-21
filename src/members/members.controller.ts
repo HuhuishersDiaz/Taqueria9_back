@@ -13,6 +13,11 @@ export class MembersController {
             lists
         });
     }
+    @Get('sec')
+    async GetSecuence(@Res() res){
+        const secuence = await this.member.getSequenceNextValue();
+        return res.status(HttpStatus.OK).json(secuence);
+    }
     @Get('all')
     async GetAll(@Res() res){
         const members = await this.member.getAll();
