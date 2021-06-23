@@ -11,4 +11,5 @@ export class MemberDTO {
     readonly talents: number;
     readonly occupation:string;
     readonly score:number;
+    readonly question:string;
 }

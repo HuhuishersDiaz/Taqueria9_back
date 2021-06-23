@@ -11,5 +11,6 @@ export interface Member extends Document {
     readonly talents: number;
     readonly occupation:string;
     readonly score:number;
+    readonly question:string;
     // integrate createAt this date that member register
 }
