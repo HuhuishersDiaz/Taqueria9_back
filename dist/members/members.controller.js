@@ -27,6 +27,20 @@ let MembersController = class MembersController {
             lists
         });
     }
+    async TransferTalents(res, id, memberData) {
+        const trans = await this.member.transferTalents(id, memberData);
+        if (!trans)
+            throw new common_1.NotFoundException("Not Found !!!.");
+        return res.status(common_1.HttpStatus.OK).json({ message: 'Update Talents', trans });
+    }
+    async GetSecuence(res) {
+        const secuence = await this.member.getSequenceNextValue();
+        return res.status(common_1.HttpStatus.OK).json(secuence);
+    }
+    async GetLast(res) {
+        const members = await this.member.getLast();
+        return res.status(common_1.HttpStatus.OK).json(members);
+    }
     async GetAll(res) {
         const members = await this.member.getAll();
         return res.status(common_1.HttpStatus.OK).json(members);
@@ -37,6 +51,12 @@ let MembersController = class MembersController {
             throw new common_1.NotFoundException("Member not found !!!.");
         return Res.status(common_1.HttpStatus.OK).json(member);
     }
+    async GetMemberInfo(Res, id) {
+        const member = await this.member.getMemberInfo(id);
+        if (!member)
+            throw new common_1.NotFoundException('Member info not found !!!.');
+        return Res.status(common_1.HttpStatus.OK).json(member);
+    }
 };
 __decorate([
     common_1.Post('/create'),
@@ -45,6 +65,27 @@ __decorate([
     __metadata("design:paramtypes", [Object, member_dto_1.MemberDTO]),
     __metadata("design:returntype", Promise)
 ], MembersController.prototype, "addMember", null);
+__decorate([
+    common_1.Put('/transfer/:id'),
+    __param(0, common_1.Res()), __param(1, common_1.Query('id')), __param(2, common_1.Body()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Object, member_dto_1.MemberDTO]),
+    __metadata("design:returntype", Promise)
+], MembersController.prototype, "TransferTalents", null);
+__decorate([
+    common_1.Get('sec'),
+    __param(0, common_1.Res()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", Promise)
+], MembersController.prototype, "GetSecuence", null);
+__decorate([
+    common_1.Get('last'),
+    __param(0, common_1.Res()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", Promise)
+], MembersController.prototype, "GetLast", null);
 __decorate([
     common_1.Get('all'),
     __param(0, common_1.Res()),
@@ -59,6 +100,13 @@ __decorate([
     __metadata("design:paramtypes", [Object, String]),
     __metadata("design:returntype", Promise)
 ], MembersController.prototype, "GetMember", null);
+__decorate([
+    common_1.Get('/info/:id'),
+    __param(0, common_1.Res()), __param(1, common_1.Param('id')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Number]),
+    __metadata("design:returntype", Promise)
+], MembersController.prototype, "GetMemberInfo", null);
 MembersController = __decorate([
     common_1.Controller('members'),
     __metadata("design:paramtypes", [members_service_1.MembersService])

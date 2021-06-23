@@ -1,6 +1,6 @@
 import { Document } from "mongoose";
 export interface Member extends Document {
-    readonly _id:number;
+     _id:number;
     readonly name:string;
     readonly address:string;
     readonly reference1:string;
@@ -10,5 +10,6 @@ export interface Member extends Document {
     readonly phone:string;
     readonly talents: number;
     readonly occupation:string;
+    readonly score:number;
     // integrate createAt this date that member register
 }

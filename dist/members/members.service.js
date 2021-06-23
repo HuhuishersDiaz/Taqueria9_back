@@ -24,11 +24,25 @@ let MembersService = class MembersService {
         const createdMember = new this.MemberModel(MemberDTO);
         return createdMember.save();
     }
+    async getSequenceNextValue() {
+        const secDoc = this.MemberModel.findOne({ _id: 1 });
+        return secDoc;
+    }
+    async transferTalents(id, member) {
+        const updateTalents = await this.MemberModel.findOneAndUpdate(id, member);
+        return updateTalents;
+    }
+    async getLast() {
+        return await this.MemberModel.find({}).sort({ _id: -1 }).limit(1);
+    }
     async getAll() {
         return await this.MemberModel.find();
     }
     async getMember(mem) {
         return await this.MemberModel.find({ phone: mem }).exec();
+    }
+    async getMemberInfo(receiver) {
+        return await this.MemberModel.find({ _id: receiver }).exec();
     }
 };
 MembersService = __decorate([

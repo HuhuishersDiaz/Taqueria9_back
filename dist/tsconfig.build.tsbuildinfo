@@ -1787,27 +1787,27 @@
         "affectsGlobalScope": false
       },
       "../src/members/interfaces/member.interface.ts": {
-        "version": "11053feac71b753983500c2bc38081c538f9093b8a2da1762c49f49734eefe5f",
-        "signature": "2b67d3bd6d40e97aa5157066bf3b32242f0810994fbccfa896d7e9a16a7b9ef7",
+        "version": "67297fd6c18c239f00051a21be2c24682ffba166d3d7b0447ef62784bd27254b",
+        "signature": "c0814cc8b56bce74bd24e3b18be912f3faf705c5bd6a5d52f4b3e11450b9f73c",
         "affectsGlobalScope": false
       },
       "../src/members/dto/member.dto.ts": {
-        "version": "6f016bf51c326a7a194ba2b1b8b8ffdebee51ceca5577133adf13c525bdf3927",
-        "signature": "dd04969751368a001100e258b51aa3a09d76d6367543cea1af0fc7ca50ce1704",
+        "version": "e2e6d631cb6479eba5f2e7917e9289cceeace974c55a24fd8e6a89a94f305801",
+        "signature": "38b149275afaff0dc1cfbc5ac30688d226d30ffb378112e5bd6e4975c3bf5a80",
         "affectsGlobalScope": false
       },
       "../src/members/members.service.ts": {
-        "version": "cd562d367d639dbddb6e43457353593da4d522d62f5e768187dfdd357b7b4d77",
-        "signature": "f607edc7461d89ba043a82e428b72bf835c1e13ed12335d83a1c221150d05752",
+        "version": "c99cdaaa693537e77681a8a61711c5184e8952a2435833825cf553623d44b1f0",
+        "signature": "95125c836aac4262b08888a996159179fce56d24c65df9a1e6800a1c4968e994",
         "affectsGlobalScope": false
       },
       "../src/members/members.controller.ts": {
-        "version": "fe955f3d19f673f2d9c0a1c8e0a337dc8a3ff91a68ffe708e304e97c38ae90d7",
-        "signature": "368a1c15030fc653baa816adcba8d33e2922c6a2e37511f4ba8617180b93953a",
+        "version": "cfbda4c6a16a4c9b129fc35514625f6d5a9fa602ef4dc8423fc4b1f1c4e38357",
+        "signature": "42627f9bdcfb2302f2162b0a80ee4285196e56b62eb2ca47b10e2b91323ad240",
         "affectsGlobalScope": false
       },
       "../src/members/schemas/member.schema.ts": {
-        "version": "386bfcc288ba9e095ca7d583a68332db6692271a15eb29e32ebe812e4976a166",
+        "version": "df477a8116a4a856c282a5d105e509191a43a9da5137035db88d5103d746fcee",
         "signature": "98902e70dbff528422e2b182a553f451f8d0663e82f4ad9e4923a046a14948bb",
         "affectsGlobalScope": false
       },
@@ -1816,8 +1816,23 @@
         "signature": "c4f34361f38339f945f59ba4450a28fb3de981ee45f88c6920e78dd0f86515c9",
         "affectsGlobalScope": false
       },
+      "../src/transfers/transfers.service.ts": {
+        "version": "9d643be5ed3de597a1804edf7659e897f6adc92b916c5127b992bafb048053b9",
+        "signature": "068f91021bf2fac7b2da1b0b16d0a38b8f52631ac366f7ae3818d5412927a60b",
+        "affectsGlobalScope": false
+      },
+      "../src/transfers/transfers.controller.ts": {
+        "version": "4217588e45358450604698da1399263f6c3c3468909020ee9a39501adf4b55e3",
+        "signature": "2663a1445dccf6684303c7d11890c7145b97a305476978afd0df6eeedc339d54",
+        "affectsGlobalScope": false
+      },
+      "../src/transfers/transfers.module.ts": {
+        "version": "8c9488b66405b04a8aef0d148249dae32cd8cadc6fbc2d22ebec4bf8caf95ae4",
+        "signature": "6a4c1b92ac6595f69458188e6d37b5e4e4ad484cfb4846ff2e9e87ec9c259c69",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "5d463b96f2f53c1d4de8ca8c2a1a00812891b73625bfd557ea290cc3aa7f9fb3",
+        "version": "84c4eb70994b2c076b458936a5904be36b1b7aa04c280ceed3d054aa99c1734d",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -2002,8 +2017,23 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "e25d9bd8f80b6ffbcc8826ed1b407e747e4fbe346c5bab62cbe5837da4eeb189",
+        "version": "30f450c04dca4cdc6bf920128d7415c67a50e69d71dcf0c15a56fa6559feafe6",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/transfers/dto/transfer.dto.ts": {
+        "version": "57cae1a1d64eea68a0d69b718c23b739bdef9792ae88263892e6355cd0ec826e",
+        "signature": "c8f873efbcab62db424046d0ee58261db7128f9e2f1847522cd286b32e4acb09",
+        "affectsGlobalScope": false
+      },
+      "../src/transfers/interfaces/transfer.interface.ts": {
+        "version": "995484dbed1caad5b51b684464f5a8cbfbeb4fd84928dabf9b1889a36057687d",
+        "signature": "b4828e0fb4c91b7e28ddf26468014778857b38eb09978657ccac09afe944d284",
+        "affectsGlobalScope": false
+      },
+      "../src/transfers/schemas/transfer.schema.ts": {
+        "version": "7d9f4e34d3aa13f6e8ff955b7645cd8d3c35cbfe0c453028f620a67abb1e468d",
+        "signature": "a59c909b031e21a4d727083b38220c7b914881ed15161d404b9d62f2ff09dabd",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/anymatch/index.d.ts": {
@@ -5913,6 +5943,7 @@
         "../src/products/products.service.ts",
         "../src/products/schemas/product.schema.ts",
         "../src/talents/talents.module.ts",
+        "../src/transfers/transfers.module.ts",
         "../src/users/users.module.ts"
       ],
       "../src/app.service.ts": [
@@ -6198,6 +6229,55 @@
         "../node_modules/@types/node/util.d.ts"
       ],
       "../src/talents/talents/talents.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/transfers/dto/transfer.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/transfers/interfaces/transfer.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/transfers/schemas/transfer.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/transfers/transfers.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/transfers/transfers.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/transfers/transfers.controller.ts",
+        "../src/transfers/transfers.service.ts"
+      ],
+      "../src/transfers/transfers.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -9936,6 +10016,12 @@
         "../src/products/interfaces/product.interface.ts"
       ],
       "../src/products/schemas/product.schema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/transfers/interfaces/transfer.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/transfers/schemas/transfer.schema.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
       ]
     },

@@ -13,6 +13,7 @@ export const MemberSchema = new mongoose.Schema({
     phone: String,
     talents:Number,
     occupation:String,
+    score:Number,
 },
 {   
     versionKey:false

@@ -1,4 +1,4 @@
-import { Body, Res, Controller, HttpStatus, Post, Query, Param, Get, NotFoundException } from '@nestjs/common';
+import { Body, Res, Controller, HttpStatus, Post, Query, Param, Get, NotFoundException, Put } from '@nestjs/common';
 import { MembersService } from './members.service';
 import { MemberDTO } from './dto/member.dto';
 @Controller('members')
@@ -13,6 +13,14 @@ export class MembersController {
             lists
         });
     }
+    @Put('/transfer/:id')
+    async TransferTalents(@Res() res, @Query('id') id, @Body() memberData: MemberDTO):Promise<any> {
+      //  memberData._id = Number(id);
+        const trans = await this.member.transferTalents(id,memberData);
+        if(!trans) throw new NotFoundException("Not Found !!!.");
+        return res.status(HttpStatus.OK).json({message:'Update Talents',trans});
+    }
+    
     @Get('sec')
     async GetSecuence(@Res() res){
         const secuence = await this.member.getSequenceNextValue();
@@ -25,6 +33,12 @@ export class MembersController {
         if(!sec) throw new NotFoundException("not found !!!.");
         return Res.status(HttpStatus.OK).json(sec);
     }*/
+    @Get('last')
+    async GetLast(@Res() res){
+        const members = await this.member.getLast();
+        return res.status(HttpStatus.OK).json(members);
+    }
+
     @Get('all')
     async GetAll(@Res() res){
         const members = await this.member.getAll();
@@ -36,5 +50,12 @@ export class MembersController {
         if(!member) throw new NotFoundException("Member not found !!!.");
         return Res.status(HttpStatus.OK).json(member);
     }
+    @Get('/info/:id')
+    async GetMemberInfo(@Res() Res, @Param('id') id:number){
+        const member = await this.member.getMemberInfo(id);
+        if(!member) throw new NotFoundException('Member info not found !!!.');
+        return Res.status(HttpStatus.OK).json(member);
+    }
+    //@Put('')
 
 }

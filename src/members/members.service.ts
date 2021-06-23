@@ -20,10 +20,20 @@ export class MembersService {
          return secDoc;
     }
 
+    async transferTalents(id:any,member:MemberDTO): Promise<any>{
+        const updateTalents = await this.MemberModel.findOneAndUpdate(id,member);
+        return updateTalents;
+        
+    } 
+
     /*
     async setSequence(value:number): Promise<any>{
         return await this.MemberModel.findOneAndUpdate({_id:'itemId'},{seqValue:value},{new: true});
     }*/
+
+    async getLast(): Promise<any>{
+        return await this.MemberModel.find({}).sort({_id:-1}).limit(1);
+    }
 
     async getAll(): Promise<any>{
         return await this.MemberModel.find();
@@ -31,6 +41,9 @@ export class MembersService {
 
     async getMember(mem:string): Promise<any>{
         return await this.MemberModel.find({phone:mem}).exec();
+    }
+    async getMemberInfo(receiver:number):Promise<any>{
+        return await this.MemberModel.find({ _id:receiver}).exec();
     }
 
 }

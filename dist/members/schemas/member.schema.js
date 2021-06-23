@@ -4,6 +4,7 @@ exports.MemberSchema = void 0;
 const mongoose = require("mongoose");
 const AutoIncrement = require('mongoose-sequence')(mongoose);
 exports.MemberSchema = new mongoose.Schema({
+    _id: Number,
     name: String,
     address: String,
     reference1: String,
@@ -13,8 +14,8 @@ exports.MemberSchema = new mongoose.Schema({
     phone: String,
     talents: Number,
     occupation: String,
+    score: Number,
 }, {
     versionKey: false
 });
-exports.MemberSchema.plugin(AutoIncrement, { inc_field: 'id' });
 //# sourceMappingURL=member.schema.js.map

@@ -11,13 +11,15 @@ import { ProductsController } from './products/products.controller';
 import { DevicesModule } from './devices/devices.module';
 import { TalentsModule } from './talents/talents.module';
 import { MembersModule } from './members/members.module';
+import { TransfersModule } from './transfers/transfers.module';
 
 @Module({
   imports: [AuthModule, UsersModule,ProductsModule,
   MongooseModule.forRoot("mongodb://localhost:27017/enginedb",{useFindAndModify:false}),
   DevicesModule,
   MembersModule,
-  TalentsModule],
+  TalentsModule,
+  TransfersModule],
   controllers: [AppController],
   providers: [AppService],
 })
