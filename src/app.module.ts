@@ -12,6 +12,7 @@ import { DevicesModule } from './devices/devices.module';
 import { TalentsModule } from './talents/talents.module';
 import { MembersModule } from './members/members.module';
 import { TransfersModule } from './transfers/transfers.module';
+import { LoginModule } from './login/login.module';
 
 @Module({
   imports: [AuthModule, UsersModule,ProductsModule,
@@ -19,7 +20,8 @@ import { TransfersModule } from './transfers/transfers.module';
   DevicesModule,
   MembersModule,
   TalentsModule,
-  TransfersModule],
+  TransfersModule,
+  LoginModule],
   controllers: [AppController],
   providers: [AppService],
 })

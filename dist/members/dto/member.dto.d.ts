@@ -1,5 +1,5 @@
 export declare class MemberDTO {
-    _id: number;
+    readonly _id: number;
     readonly name: string;
     readonly address: string;
     readonly reference1: string;
@@ -10,4 +10,5 @@ export declare class MemberDTO {
     readonly talents: number;
     readonly occupation: string;
     readonly score: number;
+    readonly question: string;
 }

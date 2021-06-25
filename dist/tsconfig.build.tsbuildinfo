@@ -1787,13 +1787,13 @@
         "affectsGlobalScope": false
       },
       "../src/members/interfaces/member.interface.ts": {
-        "version": "67297fd6c18c239f00051a21be2c24682ffba166d3d7b0447ef62784bd27254b",
-        "signature": "c0814cc8b56bce74bd24e3b18be912f3faf705c5bd6a5d52f4b3e11450b9f73c",
+        "version": "608da25ddf06887f8e46c56affa1e822afaf03b662233826a63c5fdc12441f30",
+        "signature": "ea2540c557b935d33e663d9776c4c85feafc6d84c7b0ee0a9361476f222fb00e",
         "affectsGlobalScope": false
       },
       "../src/members/dto/member.dto.ts": {
-        "version": "e2e6d631cb6479eba5f2e7917e9289cceeace974c55a24fd8e6a89a94f305801",
-        "signature": "38b149275afaff0dc1cfbc5ac30688d226d30ffb378112e5bd6e4975c3bf5a80",
+        "version": "a0b9273febe1d7de4d37c39539a2912831846f76bb84236dba927a902367fa3c",
+        "signature": "1a18d7afdac0f8bcc26f1b61f0714ad3a233503e6548f92887ce8ad95524e64d",
         "affectsGlobalScope": false
       },
       "../src/members/members.service.ts": {
@@ -1807,7 +1807,7 @@
         "affectsGlobalScope": false
       },
       "../src/members/schemas/member.schema.ts": {
-        "version": "df477a8116a4a856c282a5d105e509191a43a9da5137035db88d5103d746fcee",
+        "version": "ca51598ff3ce68e5e75184160644c2c999066e411299f4c6d05c08eb523a1416",
         "signature": "98902e70dbff528422e2b182a553f451f8d0663e82f4ad9e4923a046a14948bb",
         "affectsGlobalScope": false
       },
@@ -1831,8 +1831,38 @@
         "signature": "6a4c1b92ac6595f69458188e6d37b5e4e4ad484cfb4846ff2e9e87ec9c259c69",
         "affectsGlobalScope": false
       },
+      "../src/login/interfaces/login.interface.ts": {
+        "version": "55e5b1c6b4744e0a375a907943bcdbc25439edfe1a78577139ab1db392e06282",
+        "signature": "b359ccb51df6c19eae7f7de251524bb92a7610ffadd721ddbef5bf7cea153b99",
+        "affectsGlobalScope": false
+      },
+      "../src/login/dto/login.dto.ts": {
+        "version": "3daf4c01749e1a9c004394fc4d4ea47f6a8568238434b469585966695d5a1de8",
+        "signature": "727c3ea3736f3ffc9d1fa679f7f5b5579ff1c660fbed8c3e056ee1a13648b49c",
+        "affectsGlobalScope": false
+      },
+      "../src/login/login.service.ts": {
+        "version": "59be2fc18777ec9ae49b3626f863f58d5ca42b6b66fb61eb0fc1d3547f496693",
+        "signature": "4c7b41dbb4851d8700ca284e6252ee7954f981215a6edafb1a81a8dccb460297",
+        "affectsGlobalScope": false
+      },
+      "../src/login/login.controller.ts": {
+        "version": "cde4318ee91736b0fbac23bc076eb67a6e99e6f30e4b7465ea3859a2a1d511b4",
+        "signature": "58cad08f854de8b79ad8006599abb58308cdfb0e529705ebd2b2d54af7200eba",
+        "affectsGlobalScope": false
+      },
+      "../src/login/schemas/login.schema.ts": {
+        "version": "ad553f7fb8d86da8822ba341be50c130f50f82da9a10659ddbb329c602127cb6",
+        "signature": "7b1a6d4fb0c8b14642b97a29f0b598bafb6dc4c492c1b3b619999a6b0fdaf793",
+        "affectsGlobalScope": false
+      },
+      "../src/login/login.module.ts": {
+        "version": "f2d572b2543ff62e8fb98097a5a7e38dcd6e81c1b0c0b0357d2157e8db265e18",
+        "signature": "7d2c312d4cd4539930e18319eea2c2d827a57c4b476c904069f8272ad1f74047",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "84c4eb70994b2c076b458936a5904be36b1b7aa04c280ceed3d054aa99c1734d",
+        "version": "311416908a38320a58baf629504f94baf89a86bc382a454a8c1d9a83e1847db5",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -5937,6 +5967,7 @@
         "../src/app.service.ts",
         "../src/auth/auth.module.ts",
         "../src/devices/devices.module.ts",
+        "../src/login/login.module.ts",
         "../src/members/members.module.ts",
         "../src/products/products.controller.ts",
         "../src/products/products.module.ts",
@@ -6078,6 +6109,63 @@
         "../node_modules/@types/node/util.d.ts"
       ],
       "../src/devices/schemas/device.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/login/dto/login.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/login/interfaces/login.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/login/login.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/login/dto/login.dto.ts",
+        "../src/login/login.service.ts"
+      ],
+      "../src/login/login.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/login/login.controller.ts",
+        "../src/login/login.service.ts",
+        "../src/login/schemas/login.schema.ts"
+      ],
+      "../src/login/login.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/login/dto/login.dto.ts",
+        "../src/login/interfaces/login.interface.ts"
+      ],
+      "../src/login/schemas/login.schema.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/mongoose/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -9988,6 +10076,21 @@
         "../node_modules/@types/mongoose/index.d.ts"
       ],
       "../src/devices/schemas/device.schema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/login/interfaces/login.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/login/login.controller.ts": [
+        "../src/login/dto/login.dto.ts",
+        "../src/login/login.service.ts"
+      ],
+      "../src/login/login.service.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../src/login/dto/login.dto.ts",
+        "../src/login/interfaces/login.interface.ts"
+      ],
+      "../src/login/schemas/login.schema.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
       ],
       "../src/members/interfaces/member.interface.ts": [
