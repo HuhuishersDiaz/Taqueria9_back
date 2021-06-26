@@ -14,9 +14,9 @@ export class MembersController {
         });
     }
     @Put('/transfer')
-    async TransferTalents(@Res() res, @Query('_id') _id, @Body() memberData: MemberDTO):Promise<any> {
+    async TransferTalents(@Res() res, @Query('id') id, @Body() memberData: MemberDTO):Promise<any> {
       //  memberData._id = Number(id);
-        const trans = await this.member.transferTalents(_id,memberData);
+        const trans = await this.member.transferTalents(id,memberData);
         if(!trans) throw new NotFoundException("Not Found !!!.");
         return res.status(HttpStatus.OK).json({message:'Update Talents',trans});
     }

@@ -1,5 +1,5 @@
 export declare class MemberDTO {
-    readonly _id: number;
+    readonly id: number;
     readonly name: string;
     readonly address: string;
     readonly reference1: string;

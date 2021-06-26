@@ -16,12 +16,12 @@ export class MembersService {
     }
 
     async getSequenceNextValue(): Promise<any>{
-         const secDoc = this.MemberModel.findOne({_id: 1 });
+         const secDoc = this.MemberModel.findOne({id: 1 });
          return secDoc;
     }
 
-    async transferTalents(_id:any,member:MemberDTO): Promise<any>{
-        const updateTalents = await this.MemberModel.findOneAndUpdate(_id,member);
+    async transferTalents(id:any,member:MemberDTO): Promise<any>{
+        const updateTalents = await this.MemberModel.findOneAndUpdate(id,member);
         return updateTalents;
         
     } 
@@ -32,7 +32,7 @@ export class MembersService {
     }*/
 
     async getLast(): Promise<any>{
-        return await this.MemberModel.find({}).sort({_id:-1}).limit(1);
+        return await this.MemberModel.find({}).sort({id:-1}).limit(1);
     }
 
     async getAll(): Promise<any>{
@@ -43,7 +43,7 @@ export class MembersService {
         return await this.MemberModel.find({phone:mem}).exec();
     }
     async getMemberInfo(receiver:number):Promise<any>{
-        return await this.MemberModel.find({ _id:receiver}).exec();
+        return await this.MemberModel.find({ id:receiver}).exec();
     }
 
 }

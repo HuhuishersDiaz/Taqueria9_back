@@ -4,7 +4,7 @@ exports.MemberSchema = void 0;
 const mongoose = require("mongoose");
 const AutoIncrement = require('mongoose-sequence')(mongoose);
 exports.MemberSchema = new mongoose.Schema({
-    _id: Number,
+    id: Number,
     name: String,
     birdhtday: String,
     reference1: String,

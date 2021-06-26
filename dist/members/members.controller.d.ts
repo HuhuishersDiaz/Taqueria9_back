@@ -4,7 +4,7 @@ export declare class MembersController {
     private member;
     constructor(member: MembersService);
     addMember(res: any, MemberDTO: MemberDTO): Promise<any>;
-    TransferTalents(res: any, _id: any, memberData: MemberDTO): Promise<any>;
+    TransferTalents(res: any, id: any, memberData: MemberDTO): Promise<any>;
     GetSecuence(res: any): Promise<any>;
     GetLast(res: any): Promise<any>;
     GetAll(res: any): Promise<any>;
