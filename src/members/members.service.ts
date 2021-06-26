@@ -21,7 +21,7 @@ export class MembersService {
     }
 
     async transferTalents(id:any,member:MemberDTO): Promise<any>{
-        const updateTalents = await this.MemberModel.findOneAndUpdate(id,member);
+        const updateTalents = await this.MemberModel.findOneAndUpdate(id,member).exec();
         return updateTalents;
         
     } 
