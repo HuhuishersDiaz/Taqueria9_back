@@ -13,7 +13,7 @@ export class MembersController {
             lists
         });
     }
-    @Put('/transfer/:_id')
+    @Put('/transfer')
     async TransferTalents(@Res() res, @Query('_id') _id, @Body() memberData: MemberDTO):Promise<any> {
       //  memberData._id = Number(id);
         const trans = await this.member.transferTalents(_id,memberData);

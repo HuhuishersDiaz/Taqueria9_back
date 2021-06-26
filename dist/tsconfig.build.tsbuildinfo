@@ -1797,13 +1797,13 @@
         "affectsGlobalScope": false
       },
       "../src/members/members.service.ts": {
-        "version": "c99cdaaa693537e77681a8a61711c5184e8952a2435833825cf553623d44b1f0",
-        "signature": "95125c836aac4262b08888a996159179fce56d24c65df9a1e6800a1c4968e994",
+        "version": "8acc469e6c0b900050e83f7864fbd3d5d13098622dca8f5114ee646a5691ef2b",
+        "signature": "910ce15b685b0fb8169e27ba59b93f7594c9ea092a5ec24fafb67e61368f7768",
         "affectsGlobalScope": false
       },
       "../src/members/members.controller.ts": {
-        "version": "cfbda4c6a16a4c9b129fc35514625f6d5a9fa602ef4dc8423fc4b1f1c4e38357",
-        "signature": "42627f9bdcfb2302f2162b0a80ee4285196e56b62eb2ca47b10e2b91323ad240",
+        "version": "bb82fc3ae5390769a728f281dee6226eb3b871a8ff4d7597149d9a19ab9a4967",
+        "signature": "d64111894b6b864557d97b6a3964a5d634a97a847678205ad6f44c5de721b250",
         "affectsGlobalScope": false
       },
       "../src/members/schemas/member.schema.ts": {

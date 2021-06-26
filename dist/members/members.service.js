@@ -28,8 +28,8 @@ let MembersService = class MembersService {
         const secDoc = this.MemberModel.findOne({ _id: 1 });
         return secDoc;
     }
-    async transferTalents(id, member) {
-        const updateTalents = await this.MemberModel.findOneAndUpdate(id, member);
+    async transferTalents(_id, member) {
+        const updateTalents = await this.MemberModel.findOneAndUpdate(_id, member);
         return updateTalents;
     }
     async getLast() {
