@@ -14,7 +14,7 @@ export class MembersController {
         });
     }
     @Put('/transfer/:id')
-    async TransferTalents(@Res() res, @Query('id') id, @Body() memberData: MemberDTO):Promise<any> {
+    async TransferTalents(@Res() res, @Param('id') id:Number, @Body() memberData: MemberDTO):Promise<any> {
       //  memberData._id = Number(id);
         const trans = await this.member.transferTalents(id,memberData);
         if(!trans) throw new NotFoundException("Not Found !!!.");

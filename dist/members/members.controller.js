@@ -66,10 +66,10 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], MembersController.prototype, "addMember", null);
 __decorate([
-    common_1.Put('/transfer'),
-    __param(0, common_1.Res()), __param(1, common_1.Query('id')), __param(2, common_1.Body()),
+    common_1.Put('/transfer/:id'),
+    __param(0, common_1.Res()), __param(1, common_1.Param('id')), __param(2, common_1.Body()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object, member_dto_1.MemberDTO]),
+    __metadata("design:paramtypes", [Object, Number, member_dto_1.MemberDTO]),
     __metadata("design:returntype", Promise)
 ], MembersController.prototype, "TransferTalents", null);
 __decorate([
