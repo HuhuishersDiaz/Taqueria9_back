@@ -20,8 +20,8 @@ export class MembersService {
          return secDoc;
     }
 
-    async transferTalents(id:any,member:MemberDTO): Promise<any>{
-        const updateTalents = await this.MemberModel.findOneAndUpdate(id,member);
+    async transferTalents(_id:any,member:MemberDTO): Promise<any>{
+        const updateTalents = await this.MemberModel.findOneAndUpdate(_id,member);
         return updateTalents;
         
     } 

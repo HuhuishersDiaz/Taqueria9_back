@@ -13,10 +13,10 @@ export class MembersController {
             lists
         });
     }
-    @Put('/transfer/:id')
-    async TransferTalents(@Res() res, @Query('id') id, @Body() memberData: MemberDTO):Promise<any> {
+    @Put('/transfer/:_id')
+    async TransferTalents(@Res() res, @Query('_id') _id, @Body() memberData: MemberDTO):Promise<any> {
       //  memberData._id = Number(id);
-        const trans = await this.member.transferTalents(id,memberData);
+        const trans = await this.member.transferTalents(_id,memberData);
         if(!trans) throw new NotFoundException("Not Found !!!.");
         return res.status(HttpStatus.OK).json({message:'Update Talents',trans});
     }
