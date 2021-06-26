@@ -29,7 +29,7 @@ let MembersService = class MembersService {
         return secDoc;
     }
     async transferTalents(id, member) {
-        const updateTalents = await this.MemberModel.findOneAndUpdate(id, member).exec();
+        const updateTalents = await this.MemberModel.updateOne({ id: id }, member, { new: true });
         return updateTalents;
     }
     async getLast() {

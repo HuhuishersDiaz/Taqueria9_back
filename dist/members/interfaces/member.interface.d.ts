@@ -1,6 +1,6 @@
 import { Document } from "mongoose";
 export interface Member extends Document {
-    readonly _d: number;
+    readonly id: number;
     readonly name: string;
     readonly address: string;
     readonly reference1: string;
