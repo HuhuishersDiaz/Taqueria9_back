@@ -42,6 +42,7 @@ export class MembersService {
     async getMember(mem:string): Promise<any>{
         return await this.MemberModel.find({phone:mem}).exec();
     }
+    
     async getMemberInfo(receiver:number):Promise<any>{
         return await this.MemberModel.find({ id:receiver}).exec();
     }

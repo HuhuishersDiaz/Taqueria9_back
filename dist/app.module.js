@@ -17,8 +17,9 @@ const products_module_1 = require("./products/products.module");
 const devices_module_1 = require("./devices/devices.module");
 const talents_module_1 = require("./talents/talents.module");
 const members_module_1 = require("./members/members.module");
-const transfers_module_1 = require("./transfers/transfers.module");
 const login_module_1 = require("./login/login.module");
+const services_module_1 = require("./services/services.module");
+const transf_module_1 = require("./transf/transf.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -28,8 +29,9 @@ AppModule = __decorate([
             devices_module_1.DevicesModule,
             members_module_1.MembersModule,
             talents_module_1.TalentsModule,
-            transfers_module_1.TransfersModule,
-            login_module_1.LoginModule],
+            login_module_1.LoginModule,
+            services_module_1.ServicesModule,
+            transf_module_1.TransfModule],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
     })

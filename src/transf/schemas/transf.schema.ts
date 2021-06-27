@@ -1,0 +1,16 @@
+
+import * as mongoose from 'mongoose';
+const AutoIncrement = require('mongoose-sequence')(mongoose);
+//mongoose.set('useFindAndModify', false);
+export const TransfSchema = new mongoose.Schema({
+    socio:Number,
+    talents:Number,
+    receiver:Number,
+    score:Number,
+    created_at:{ type: Date, required: true, default: Date.now }
+},
+{   
+    versionKey:false
+});
+
+//MemberSchema.plugin( AutoIncrement, {inc_field: 'id'});

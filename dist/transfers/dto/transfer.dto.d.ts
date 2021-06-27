@@ -1,6 +1,7 @@
 export declare class TransferDTO {
-    readonly emisor: string;
-    readonly talent_e: number;
-    readonly receptor: string;
-    readonly talent_r: number;
+    readonly emisor: number;
+    readonly receiver: number;
+    readonly talents: number;
+    readonly score: number;
+    readonly created_at: Date;
 }

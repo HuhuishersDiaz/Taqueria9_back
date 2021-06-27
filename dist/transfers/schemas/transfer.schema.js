@@ -3,10 +3,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.TransferSchema = void 0;
 const mongoose = require("mongoose");
 exports.TransferSchema = new mongoose.Schema({
-    emisor: String,
-    talent_e: Number,
-    receptor: String,
-    talent_r: Number
+    emisor: Number,
+    receiver: Number,
+    talents: Number,
+    score: Number,
+    created_at: { type: Date, default: Date.now }
 }, {
     versionKey: false
 });

@@ -1757,7 +1757,7 @@
         "affectsGlobalScope": false
       },
       "../src/devices/devices.controller.ts": {
-        "version": "8ff4e354b12952f10c715bea604fa362f1d0c7bbc105ae04a4b8e5a46052c0b5",
+        "version": "f93ddffdb5fada6433ea049f62a91e39de12cbbf8db4dc2a454bd9f096e6c59d",
         "signature": "58a83131ac4b0f1f04d5a9f2e4dec9b619e6bfc95ba3ff7eb3e17b720c26e4db",
         "affectsGlobalScope": false
       },
@@ -1797,7 +1797,7 @@
         "affectsGlobalScope": false
       },
       "../src/members/members.service.ts": {
-        "version": "bba5d9ac11411d519a715cbd1cc75019e4fb99bbe1489a66397db0b7dbc6d9c2",
+        "version": "d4c5b0f0955df46c65a319d184228735004eb8ba0c19ec354814bdbcbaa7a29e",
         "signature": "7f95138cc6cbf2c1f2cfadce744f808d0ed68f660acd08b1af525cfb82299324",
         "affectsGlobalScope": false
       },
@@ -1814,21 +1814,6 @@
       "../src/members/members.module.ts": {
         "version": "7264b3bab062e0fe67f5f487d0009453294f1f45ce6feadf31bdfbbc5bb70297",
         "signature": "c4f34361f38339f945f59ba4450a28fb3de981ee45f88c6920e78dd0f86515c9",
-        "affectsGlobalScope": false
-      },
-      "../src/transfers/transfers.service.ts": {
-        "version": "9d643be5ed3de597a1804edf7659e897f6adc92b916c5127b992bafb048053b9",
-        "signature": "068f91021bf2fac7b2da1b0b16d0a38b8f52631ac366f7ae3818d5412927a60b",
-        "affectsGlobalScope": false
-      },
-      "../src/transfers/transfers.controller.ts": {
-        "version": "4217588e45358450604698da1399263f6c3c3468909020ee9a39501adf4b55e3",
-        "signature": "2663a1445dccf6684303c7d11890c7145b97a305476978afd0df6eeedc339d54",
-        "affectsGlobalScope": false
-      },
-      "../src/transfers/transfers.module.ts": {
-        "version": "8c9488b66405b04a8aef0d148249dae32cd8cadc6fbc2d22ebec4bf8caf95ae4",
-        "signature": "6a4c1b92ac6595f69458188e6d37b5e4e4ad484cfb4846ff2e9e87ec9c259c69",
         "affectsGlobalScope": false
       },
       "../src/login/interfaces/login.interface.ts": {
@@ -1861,8 +1846,53 @@
         "signature": "7d2c312d4cd4539930e18319eea2c2d827a57c4b476c904069f8272ad1f74047",
         "affectsGlobalScope": false
       },
+      "../src/services/services.controller.ts": {
+        "version": "f6af4c18575ada974c8f39c2a6df28a8cc876f0712e4e2247586da1c820781d6",
+        "signature": "a8e766dc07a0615a885845d0c77ecb316653faeec45dd1106743f05bee8f2024",
+        "affectsGlobalScope": false
+      },
+      "../src/services/services.service.ts": {
+        "version": "64fceaad7ae96708d63a9863543bb578c08a27397b440c25ccee798f4e27dd88",
+        "signature": "e947abd259a50440a78282217ee14798deaa09b3da514307acb439f203458379",
+        "affectsGlobalScope": false
+      },
+      "../src/services/services.module.ts": {
+        "version": "5b16485126ea9146c35198a2f97bede0dad4704adbd223d49fe5a960b09eb203",
+        "signature": "b2d78bcedccbc0c098c152958b8e49fd23489ab02a9c9c619039632de4b1a5b6",
+        "affectsGlobalScope": false
+      },
+      "../src/transf/schemas/transf.schema.ts": {
+        "version": "9b4644882308451738d326791e29c70729b2002290e7cdcf7e9223f1deb0174a",
+        "signature": "0c04d76e968cac010d180d8a61927ba709e23fb2dd9ed54b656dd86940c6b8aa",
+        "affectsGlobalScope": false
+      },
+      "../src/transf/interfaces/transf.interface.ts": {
+        "version": "3706e6233fc822c8b16c7802ad2defd43623085400a320720a01f7d9260e5557",
+        "signature": "d363f2323efe7f1c8a07bbcfc2f52702f5046cef7359033dbf27303cf4e555d2",
+        "affectsGlobalScope": false
+      },
+      "../src/transf/dto/transf.dto.ts": {
+        "version": "516db4676cc1b063c3bd12a796d6cb388c1a38431b6d100c6d5c6d8ef9829167",
+        "signature": "e5aca9a0cbac71b9f622906b4a062dbdfef7e4e95f7f059c202fc501e2d9aada",
+        "affectsGlobalScope": false
+      },
+      "../src/transf/transf.service.ts": {
+        "version": "eec1f2806e4ef56624014ab7ab8e491607c4260bfe840e7bca2e96a555f43145",
+        "signature": "3a60a6c5e49c8061558a181223e947b89b81792ce43a9448c0e4d6fad4511690",
+        "affectsGlobalScope": false
+      },
+      "../src/transf/transf.controller.ts": {
+        "version": "bc8f93f561a893580119f72ea2f47ad3c15c97b843425114117fda420caa7e5c",
+        "signature": "5c58a8deef988d994d4494ea6de21ed794103c12392a935acc229e806e8b3872",
+        "affectsGlobalScope": false
+      },
+      "../src/transf/transf.module.ts": {
+        "version": "d136fb1a223edea843ffe6f88234a6ecceab3fc5f07b7d0fabce0c1ae4220acf",
+        "signature": "6d6e33ce4ef92d4dadbbacdf3dc15fe6b1cc665801e37409bf9748b89aa1b592",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "311416908a38320a58baf629504f94baf89a86bc382a454a8c1d9a83e1847db5",
+        "version": "a2b26823472b45116ab21564de305f82c9db1e68ec37c8d511dbf4fd787896ea",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -2049,21 +2079,6 @@
       "../src/main.ts": {
         "version": "30f450c04dca4cdc6bf920128d7415c67a50e69d71dcf0c15a56fa6559feafe6",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
-        "affectsGlobalScope": false
-      },
-      "../src/transfers/dto/transfer.dto.ts": {
-        "version": "57cae1a1d64eea68a0d69b718c23b739bdef9792ae88263892e6355cd0ec826e",
-        "signature": "c8f873efbcab62db424046d0ee58261db7128f9e2f1847522cd286b32e4acb09",
-        "affectsGlobalScope": false
-      },
-      "../src/transfers/interfaces/transfer.interface.ts": {
-        "version": "995484dbed1caad5b51b684464f5a8cbfbeb4fd84928dabf9b1889a36057687d",
-        "signature": "b4828e0fb4c91b7e28ddf26468014778857b38eb09978657ccac09afe944d284",
-        "affectsGlobalScope": false
-      },
-      "../src/transfers/schemas/transfer.schema.ts": {
-        "version": "7d9f4e34d3aa13f6e8ff955b7645cd8d3c35cbfe0c453028f620a67abb1e468d",
-        "signature": "a59c909b031e21a4d727083b38220c7b914881ed15161d404b9d62f2ff09dabd",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/anymatch/index.d.ts": {
@@ -5973,8 +5988,9 @@
         "../src/products/products.module.ts",
         "../src/products/products.service.ts",
         "../src/products/schemas/product.schema.ts",
+        "../src/services/services.module.ts",
         "../src/talents/talents.module.ts",
-        "../src/transfers/transfers.module.ts",
+        "../src/transf/transf.module.ts",
         "../src/users/users.module.ts"
       ],
       "../src/app.service.ts": [
@@ -6298,6 +6314,32 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../src/services/services.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/services/services.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/services/services.controller.ts",
+        "../src/services/services.service.ts"
+      ],
+      "../src/services/services.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../src/talents/talents.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -6324,22 +6366,14 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../src/transfers/dto/transfer.dto.ts": [
+      "../src/transf/dto/transf.dto.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../src/transfers/interfaces/transfer.interface.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../src/transfers/schemas/transfer.schema.ts": [
+      "../src/transf/interfaces/transf.interface.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/mongoose/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -6347,31 +6381,47 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../src/transfers/transfers.controller.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
+      "../src/transf/schemas/transf.schema.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../src/transfers/transfers.module.ts": [
+      "../src/transf/transf.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/transfers/transfers.controller.ts",
-        "../src/transfers/transfers.service.ts"
+        "../src/transf/dto/transf.dto.ts",
+        "../src/transf/transf.service.ts"
       ],
-      "../src/transfers/transfers.service.ts": [
+      "../src/transf/transf.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
+        "../node_modules/@types/node/util.d.ts",
+        "../src/transf/schemas/transf.schema.ts",
+        "../src/transf/transf.controller.ts",
+        "../src/transf/transf.service.ts"
+      ],
+      "../src/transf/transf.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/transf/dto/transf.dto.ts",
+        "../src/transf/interfaces/transf.interface.ts"
       ],
       "../src/users/users.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -10121,11 +10171,20 @@
       "../src/products/schemas/product.schema.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
       ],
-      "../src/transfers/interfaces/transfer.interface.ts": [
+      "../src/transf/interfaces/transf.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
       ],
-      "../src/transfers/schemas/transfer.schema.ts": [
+      "../src/transf/schemas/transf.schema.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/transf/transf.controller.ts": [
+        "../src/transf/dto/transf.dto.ts",
+        "../src/transf/transf.service.ts"
+      ],
+      "../src/transf/transf.service.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../src/transf/dto/transf.dto.ts",
+        "../src/transf/interfaces/transf.interface.ts"
       ]
     },
     "semanticDiagnosticsPerFile": []

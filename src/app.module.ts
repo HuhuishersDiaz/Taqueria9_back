@@ -11,8 +11,9 @@ import { ProductsController } from './products/products.controller';
 import { DevicesModule } from './devices/devices.module';
 import { TalentsModule } from './talents/talents.module';
 import { MembersModule } from './members/members.module';
-import { TransfersModule } from './transfers/transfers.module';
 import { LoginModule } from './login/login.module';
+import { ServicesModule } from './services/services.module';
+import { TransfModule } from './transf/transf.module';
 
 @Module({
   imports: [AuthModule, UsersModule,ProductsModule,
@@ -20,8 +21,9 @@ import { LoginModule } from './login/login.module';
   DevicesModule,
   MembersModule,
   TalentsModule,
-  TransfersModule,
-  LoginModule],
+  LoginModule,
+  ServicesModule,
+  TransfModule],
   controllers: [AppController],
   providers: [AppService],
 })
