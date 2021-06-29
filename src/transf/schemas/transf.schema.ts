@@ -7,6 +7,7 @@ export const TransfSchema = new mongoose.Schema({
     talents:Number,
     receiver:Number,
     score:Number,
+    percent:Number,
     created_at:{ type: Date, required: true, default: Date.now }
 },
 {   
