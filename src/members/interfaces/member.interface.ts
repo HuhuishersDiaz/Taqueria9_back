@@ -12,5 +12,8 @@ export interface Member extends Document {
     readonly occupation:string;
     readonly score:number;
     readonly question:string;
+    readonly codechain:string;
+    readonly sponsor1:number;
+    readonly sponsor2:number;
     // integrate createAt this date that member register
 }

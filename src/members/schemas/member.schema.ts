@@ -16,7 +16,10 @@ export const MemberSchema = new mongoose.Schema({
     talents:Number,
     occupation:String,
     score:Number,
-    question:String
+    question:String,
+    codechain:String,
+    sponsor1:Number,
+    sponsor2:Number,
 },
 {   
     versionKey:false
