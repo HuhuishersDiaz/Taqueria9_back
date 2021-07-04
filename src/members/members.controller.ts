@@ -51,8 +51,8 @@ export class MembersController {
         return Res.status(HttpStatus.OK).json(member);
     }
     @Get('/info/:id')
-    async GetMemberInfo(@Res() Res, @Param('id') id:string){
-        const member = await this.member.getMemberInfo(id);
+    async GetMemberInfo(@Res() Res, @Param('id') codechain:string){
+        const member = await this.member.getMemberInfo(codechain);
         if(!member) throw new NotFoundException('Member info not found !!!.');
         return Res.status(HttpStatus.OK).json(member);
     }
