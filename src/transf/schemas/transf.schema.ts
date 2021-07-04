@@ -3,7 +3,7 @@ import * as mongoose from 'mongoose';
 const AutoIncrement = require('mongoose-sequence')(mongoose);
 //mongoose.set('useFindAndModify', false);
 export const TransfSchema = new mongoose.Schema({
-    socio:Number,
+    socio:String,
     talents:Number,
     receiver:Number,
     score:Number,

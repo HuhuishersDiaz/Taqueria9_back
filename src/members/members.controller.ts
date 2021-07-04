@@ -14,7 +14,7 @@ export class MembersController {
         });
     }
     @Put('/transfer/:id')
-    async TransferTalents(@Res() res, @Param('id') id:number, @Body() memberData: MemberDTO) {
+    async TransferTalents(@Res() res, @Param('id') id:string, @Body() memberData: MemberDTO) {
       //  memberData._id = Number(id);
         const trans = await this.member.transferTalents(id,memberData);
         if(!trans) throw new NotFoundException("Not Found !!!.");
@@ -51,7 +51,7 @@ export class MembersController {
         return Res.status(HttpStatus.OK).json(member);
     }
     @Get('/info/:id')
-    async GetMemberInfo(@Res() Res, @Param('id') id:number){
+    async GetMemberInfo(@Res() Res, @Param('id') id:string){
         const member = await this.member.getMemberInfo(id);
         if(!member) throw new NotFoundException('Member info not found !!!.');
         return Res.status(HttpStatus.OK).json(member);

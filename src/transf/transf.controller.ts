@@ -16,7 +16,7 @@ export class TransfController {
     }
 
     @Get('/info/:id')
-    async GetTransferInfo(@Res() Res, @Param('id') id:number){
+    async GetTransferInfo(@Res() Res, @Param('id') id:string){
         const transfer = await this.transfer.getInfo(id);
         if(!transfer) throw new NotFoundException('Transfer info not found !!!.');
         return Res.status(HttpStatus.OK).json(transfer);

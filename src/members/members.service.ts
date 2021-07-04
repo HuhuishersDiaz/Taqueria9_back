@@ -20,8 +20,8 @@ export class MembersService {
          return secDoc;
     }
 
-    async transferTalents(id:number ,member:MemberDTO): Promise<any>{
-        const updateTalents = await this.MemberModel.updateOne({id:id},member,{ new:true});
+    async transferTalents(id:string ,member:MemberDTO): Promise<any>{
+        const updateTalents = await this.MemberModel.updateOne({codechain:id},member,{ new:true});
         return updateTalents;
         
     } 
@@ -42,9 +42,9 @@ export class MembersService {
     async getMember(mem:string): Promise<any>{
         return await this.MemberModel.find({phone:mem}).exec();
     }
-    
-    async getMemberInfo(receiver:number):Promise<any>{
-        return await this.MemberModel.find({ id:receiver}).exec();
+
+    async getMemberInfo(receiver:string):Promise<any>{
+        return await this.MemberModel.find({ codechain:receiver}).exec();
     }
 
 }

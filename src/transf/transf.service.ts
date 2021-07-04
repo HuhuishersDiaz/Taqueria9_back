@@ -15,8 +15,8 @@ export class TransfService {
         return createdTransfer.save();
     }
 
-    async getInfo(id:number):Promise<any>{
-        return await this.TransfModel.find({ socio:id}).exec();
+    async getInfo(code:string):Promise<any>{
+        return await this.TransfModel.find({ socio:code}).exec();
     }
 
 
