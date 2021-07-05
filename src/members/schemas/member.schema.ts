@@ -4,6 +4,7 @@ const AutoIncrement = require('mongoose-sequence')(mongoose);
 //mongoose.set('useFindAndModify', false);
 export const MemberSchema = new mongoose.Schema({
     id:Number,
+    code:String,
     name:String,
     //address: String,
     birdhtday:String,
