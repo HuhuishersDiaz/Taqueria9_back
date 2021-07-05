@@ -21,7 +21,7 @@ export class MembersService {
     }
 
     async transferTalents(id:string ,member:MemberDTO): Promise<any>{
-        const updateTalents = await this.MemberModel.updateOne({codechain:id},member,{ new:true});
+        const updateTalents = await this.MemberModel.updateOne({code:id},member,{ new:true});
         return updateTalents;
         
     } 
