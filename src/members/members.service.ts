@@ -44,7 +44,7 @@ export class MembersService {
     }
 
     async getMemberInfo(receiver:string):Promise<any>{
-        return await this.MemberModel.find({ codechain:receiver}).exec();
+        return await this.MemberModel.find({ code:receiver}).exec();
     }
 
 }
