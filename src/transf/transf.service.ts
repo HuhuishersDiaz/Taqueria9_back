@@ -16,7 +16,7 @@ export class TransfService {
     }
 
     async getInfo(code:string):Promise<any>{
-        return await this.TransfModel.find({ socio:code}).exec();
+        return await this.TransfModel.find({ receiver:code}).exec();
     }
 
 
