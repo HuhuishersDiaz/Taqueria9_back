@@ -45,8 +45,8 @@ export class MembersController {
     @Get('all')
     async GetAll(@Res() res){
         const members = await this.member.getAll();
-       const mail = await this.mailService.sendUserConfirmation();
-       console.log(mail);
+      // const mail = await this.mailService.sendUserConfirmation();
+      // console.log(mail);
        
         return res.status(HttpStatus.OK).json(members);
     }
