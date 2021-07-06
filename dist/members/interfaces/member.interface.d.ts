@@ -1,6 +1,7 @@
 import { Document } from "mongoose";
 export interface Member extends Document {
     readonly id: number;
+    readonly code: string;
     readonly name: string;
     readonly address: string;
     readonly reference1: string;
@@ -12,4 +13,7 @@ export interface Member extends Document {
     readonly occupation: string;
     readonly score: number;
     readonly question: string;
+    readonly codechain: string;
+    readonly sponsor1: number;
+    readonly sponsor2: number;
 }

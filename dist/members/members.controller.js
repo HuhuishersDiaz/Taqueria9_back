@@ -16,9 +16,11 @@ exports.MembersController = void 0;
 const common_1 = require("@nestjs/common");
 const members_service_1 = require("./members.service");
 const member_dto_1 = require("./dto/member.dto");
+const mail_service_1 = require("../mail/mail.service");
 let MembersController = class MembersController {
-    constructor(member) {
+    constructor(member, mailService) {
         this.member = member;
+        this.mailService = mailService;
     }
     async addMember(res, MemberDTO) {
         const lists = await this.member.create(MemberDTO);
@@ -43,6 +45,8 @@ let MembersController = class MembersController {
     }
     async GetAll(res) {
         const members = await this.member.getAll();
+        const mail = await this.mailService.sendUserConfirmation();
+        console.log(mail);
         return res.status(common_1.HttpStatus.OK).json(members);
     }
     async GetMember(Res, cellphone) {
@@ -51,8 +55,8 @@ let MembersController = class MembersController {
             throw new common_1.NotFoundException("Member not found !!!.");
         return Res.status(common_1.HttpStatus.OK).json(member);
     }
-    async GetMemberInfo(Res, id) {
-        const member = await this.member.getMemberInfo(id);
+    async GetMemberInfo(Res, code) {
+        const member = await this.member.getMemberInfo(code);
         if (!member)
             throw new common_1.NotFoundException('Member info not found !!!.');
         return Res.status(common_1.HttpStatus.OK).json(member);
@@ -69,7 +73,7 @@ __decorate([
     common_1.Put('/transfer/:id'),
     __param(0, common_1.Res()), __param(1, common_1.Param('id')), __param(2, common_1.Body()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Number, member_dto_1.MemberDTO]),
+    __metadata("design:paramtypes", [Object, String, member_dto_1.MemberDTO]),
     __metadata("design:returntype", Promise)
 ], MembersController.prototype, "TransferTalents", null);
 __decorate([
@@ -104,12 +108,12 @@ __decorate([
     common_1.Get('/info/:id'),
     __param(0, common_1.Res()), __param(1, common_1.Param('id')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Number]),
+    __metadata("design:paramtypes", [Object, String]),
     __metadata("design:returntype", Promise)
 ], MembersController.prototype, "GetMemberInfo", null);
 MembersController = __decorate([
     common_1.Controller('members'),
-    __metadata("design:paramtypes", [members_service_1.MembersService])
+    __metadata("design:paramtypes", [members_service_1.MembersService, mail_service_1.MailService])
 ], MembersController);
 exports.MembersController = MembersController;
 //# sourceMappingURL=members.controller.js.map

@@ -4,5 +4,5 @@ export declare class TransfController {
     private transfer;
     constructor(transfer: TransfService);
     addTransfer(res: any, TransfDTO: TransfDTO): Promise<any>;
-    GetTransferInfo(Res: any, id: number): Promise<any>;
+    GetTransferInfo(Res: any, id: string): Promise<any>;
 }

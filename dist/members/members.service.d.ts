@@ -6,9 +6,9 @@ export declare class MembersService {
     constructor(MemberModel: Model<Member>);
     create(MemberDTO: MemberDTO): Promise<any>;
     getSequenceNextValue(): Promise<any>;
-    transferTalents(id: number, member: MemberDTO): Promise<any>;
+    transferTalents(id: string, member: MemberDTO): Promise<any>;
     getLast(): Promise<any>;
     getAll(): Promise<any>;
     getMember(mem: string): Promise<any>;
-    getMemberInfo(receiver: number): Promise<any>;
+    getMemberInfo(receiver: string): Promise<any>;
 }

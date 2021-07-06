@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
+import { MailService } from 'src/mail/mail.service';
 import { MembersController } from './members.controller';
 import { MembersService } from './members.service';
 import { MemberSchema } from './schemas/member.schema';
@@ -10,6 +11,6 @@ import { MemberSchema } from './schemas/member.schema';
     schema:MemberSchema
   }])],
   controllers: [MembersController],
-  providers: [MembersService]
+  providers: [MembersService, MailService]
 })
 export class MembersModule {}

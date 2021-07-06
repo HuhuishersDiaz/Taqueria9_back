@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 const AutoIncrement = require('mongoose-sequence')(mongoose);
 exports.MemberSchema = new mongoose.Schema({
     id: Number,
+    code: String,
     name: String,
     birdhtday: String,
     reference1: String,
@@ -16,7 +17,10 @@ exports.MemberSchema = new mongoose.Schema({
     talents: Number,
     occupation: String,
     score: Number,
-    question: String
+    question: String,
+    codechain: String,
+    sponsor1: Number,
+    sponsor2: Number,
 }, {
     versionKey: false
 });

@@ -5,5 +5,5 @@ export declare class TransfService {
     private readonly TransfModel;
     constructor(TransfModel: Model<Transf>);
     create(TransfDTO: TransfDTO): Promise<any>;
-    getInfo(id: number): Promise<any>;
+    getInfo(code: string): Promise<any>;
 }

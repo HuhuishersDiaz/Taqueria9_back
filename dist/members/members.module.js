@@ -9,6 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.MembersModule = void 0;
 const common_1 = require("@nestjs/common");
 const mongoose_1 = require("@nestjs/mongoose");
+const mail_service_1 = require("../mail/mail.service");
 const members_controller_1 = require("./members.controller");
 const members_service_1 = require("./members.service");
 const member_schema_1 = require("./schemas/member.schema");
@@ -21,7 +22,7 @@ MembersModule = __decorate([
                     schema: member_schema_1.MemberSchema
                 }])],
         controllers: [members_controller_1.MembersController],
-        providers: [members_service_1.MembersService]
+        providers: [members_service_1.MembersService, mail_service_1.MailService]
     })
 ], MembersModule);
 exports.MembersModule = MembersModule;

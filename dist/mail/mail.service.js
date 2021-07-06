@@ -8,30 +8,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.TransfService = void 0;
+exports.MailService = void 0;
+const mailer_1 = require("@nestjs-modules/mailer");
 const common_1 = require("@nestjs/common");
-const mongoose_1 = require("mongoose");
-const mongoose_2 = require("@nestjs/mongoose");
-let TransfService = class TransfService {
-    constructor(TransfModel) {
-        this.TransfModel = TransfModel;
+let MailService = class MailService {
+    constructor(mailerService) {
+        this.mailerService = mailerService;
     }
-    async create(TransfDTO) {
-        const createdTransfer = new this.TransfModel(TransfDTO);
-        return createdTransfer.save();
-    }
-    async getInfo(code) {
-        return await this.TransfModel.find({ socio: code }).exec();
+    async sendUserConfirmation() {
+        return await this.mailerService.sendMail({
+            to: "geniushkr81@gmail.com",
+            subject: 'Welcome to Nice App Confirm your Email',
+        });
     }
 };
-TransfService = __decorate([
+MailService = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_2.InjectModel('Transf')),
-    __metadata("design:paramtypes", [mongoose_1.Model])
-], TransfService);
-exports.TransfService = TransfService;
-//# sourceMappingURL=transf.service.js.map
+    __metadata("design:paramtypes", [mailer_1.MailerService])
+], MailService);
+exports.MailService = MailService;
+//# sourceMappingURL=mail.service.js.map

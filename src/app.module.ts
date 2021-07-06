@@ -14,6 +14,7 @@ import { MembersModule } from './members/members.module';
 import { LoginModule } from './login/login.module';
 import { ServicesModule } from './services/services.module';
 import { TransfModule } from './transf/transf.module';
+import { MailModule } from './mail/mail.module';
 
 @Module({
   imports: [AuthModule, UsersModule,ProductsModule,
@@ -23,7 +24,8 @@ import { TransfModule } from './transf/transf.module';
   TalentsModule,
   LoginModule,
   ServicesModule,
-  TransfModule],
+  TransfModule,
+  MailModule],
   controllers: [AppController],
   providers: [AppService],
 })

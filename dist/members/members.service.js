@@ -29,7 +29,7 @@ let MembersService = class MembersService {
         return secDoc;
     }
     async transferTalents(id, member) {
-        const updateTalents = await this.MemberModel.updateOne({ id: id }, member, { new: true });
+        const updateTalents = await this.MemberModel.updateOne({ code: id }, member, { new: true });
         return updateTalents;
     }
     async getLast() {
@@ -42,7 +42,7 @@ let MembersService = class MembersService {
         return await this.MemberModel.find({ phone: mem }).exec();
     }
     async getMemberInfo(receiver) {
-        return await this.MemberModel.find({ id: receiver }).exec();
+        return await this.MemberModel.find({ code: receiver }).exec();
     }
 };
 MembersService = __decorate([

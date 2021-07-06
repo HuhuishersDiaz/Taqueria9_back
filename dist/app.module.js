@@ -20,6 +20,7 @@ const members_module_1 = require("./members/members.module");
 const login_module_1 = require("./login/login.module");
 const services_module_1 = require("./services/services.module");
 const transf_module_1 = require("./transf/transf.module");
+const mail_module_1 = require("./mail/mail.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -31,7 +32,8 @@ AppModule = __decorate([
             talents_module_1.TalentsModule,
             login_module_1.LoginModule,
             services_module_1.ServicesModule,
-            transf_module_1.TransfModule],
+            transf_module_1.TransfModule,
+            mail_module_1.MailModule],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
     })

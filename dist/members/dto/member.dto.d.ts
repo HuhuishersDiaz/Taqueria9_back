@@ -1,5 +1,6 @@
 export declare class MemberDTO {
     readonly id: number;
+    readonly code: string;
     readonly name: string;
     readonly address: string;
     readonly reference1: string;
@@ -11,4 +12,7 @@ export declare class MemberDTO {
     readonly occupation: string;
     readonly score: number;
     readonly question: string;
+    readonly codechain: string;
+    readonly sponsor1: number;
+    readonly sponsor2: number;
 }

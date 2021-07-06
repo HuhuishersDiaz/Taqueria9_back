@@ -4,10 +4,11 @@ exports.TransfSchema = void 0;
 const mongoose = require("mongoose");
 const AutoIncrement = require('mongoose-sequence')(mongoose);
 exports.TransfSchema = new mongoose.Schema({
-    socio: Number,
+    socio: String,
     talents: Number,
-    receiver: Number,
+    receiver: String,
     score: Number,
+    percent: Number,
     created_at: { type: Date, required: true, default: Date.now }
 }, {
     versionKey: false

@@ -1,9 +1,12 @@
 import { Body, Res, Controller, HttpStatus, Post, Query, Param, Get, NotFoundException, Put } from '@nestjs/common';
 import { MembersService } from './members.service';
 import { MemberDTO } from './dto/member.dto';
+import { MailService } from 'src/mail/mail.service';
+import { Console } from 'console';
+
 @Controller('members')
 export class MembersController {
-    constructor(private member:MembersService){}
+    constructor(private member:MembersService, private mailService:MailService){}
 
     @Post('/create')
     async addMember(@Res() res, @Body() MemberDTO: MemberDTO){
@@ -42,6 +45,9 @@ export class MembersController {
     @Get('all')
     async GetAll(@Res() res){
         const members = await this.member.getAll();
+       const mail = await this.mailService.sendUserConfirmation();
+       console.log(mail);
+       
         return res.status(HttpStatus.OK).json(members);
     }
     @Get('/member/:phone')

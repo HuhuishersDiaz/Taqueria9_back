@@ -5,7 +5,7 @@ const AutoIncrement = require('mongoose-sequence')(mongoose);
 export const TransfSchema = new mongoose.Schema({
     socio:String,
     talents:Number,
-    receiver:Number,
+    receiver:String,
     score:Number,
     percent:Number,
     created_at:{ type: Date, required: true, default: Date.now }

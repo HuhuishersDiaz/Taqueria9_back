@@ -45,7 +45,7 @@ __decorate([
     common_1.Get('/info/:id'),
     __param(0, common_1.Res()), __param(1, common_1.Param('id')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Number]),
+    __metadata("design:paramtypes", [Object, String]),
     __metadata("design:returntype", Promise)
 ], TransfController.prototype, "GetTransferInfo", null);
 TransfController = __decorate([
