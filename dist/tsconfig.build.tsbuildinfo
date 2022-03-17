@@ -196,7 +196,7 @@
         "signature": "75b57b109d774acca1e151df21cf5cb54c7a1df33a273f0457b9aee4ebd36fb9",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/subscription.d.ts": {
+      "../node_modules/rxjs/internal/Subscription.d.ts": {
         "version": "6cb35d83d21a7e72bd00398c93302749bcd38349d0cc5e76ff3a90c6d1498a4d",
         "signature": "6cb35d83d21a7e72bd00398c93302749bcd38349d0cc5e76ff3a90c6d1498a4d",
         "affectsGlobalScope": false
@@ -206,12 +206,12 @@
         "signature": "051451ceae7f29c8f17b810e6a6d8d270c67b401866f487cdc50c5c1a8b3f511",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/subscriber.d.ts": {
+      "../node_modules/rxjs/internal/Subscriber.d.ts": {
         "version": "2632057d8b983ee33295566088c080384d7d69a492bc60b008d6a6dfd3508d6b",
         "signature": "2632057d8b983ee33295566088c080384d7d69a492bc60b008d6a6dfd3508d6b",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/operator.d.ts": {
+      "../node_modules/rxjs/internal/Operator.d.ts": {
         "version": "4bf71cf2a94492fc71e97800bdf2bcb0a9a0fa5fce921c8fe42c67060780cbfa",
         "signature": "4bf71cf2a94492fc71e97800bdf2bcb0a9a0fa5fce921c8fe42c67060780cbfa",
         "affectsGlobalScope": false
@@ -221,27 +221,27 @@
         "signature": "0996ff06f64cb05b6dac158a6ada2e16f8c2ccd20f9ff6f3c3e871f1ba5fb6d9",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/observable/throwerror.d.ts": {
+      "../node_modules/rxjs/internal/observable/throwError.d.ts": {
         "version": "5c492d01a19fea5ebfff9d27e786bc533e5078909521ca17ae41236f16f9686a",
         "signature": "5c492d01a19fea5ebfff9d27e786bc533e5078909521ca17ae41236f16f9686a",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/observable.d.ts": {
+      "../node_modules/rxjs/internal/Observable.d.ts": {
         "version": "a6ee930b81c65ec79aca49025b797817dde6f2d2e9b0e0106f0844e18e2cc819",
         "signature": "a6ee930b81c65ec79aca49025b797817dde6f2d2e9b0e0106f0844e18e2cc819",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/subject.d.ts": {
+      "../node_modules/rxjs/internal/Subject.d.ts": {
         "version": "84fce15473e993e6b656db9dd3c9196b80f545647458e6621675e840fd700d29",
         "signature": "84fce15473e993e6b656db9dd3c9196b80f545647458e6621675e840fd700d29",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/observable/connectableobservable.d.ts": {
+      "../node_modules/rxjs/internal/observable/ConnectableObservable.d.ts": {
         "version": "7d5336ee766aa72dffb1cc2a515f61d18a4fb61b7a2757cbccfb7b286b783dfb",
         "signature": "7d5336ee766aa72dffb1cc2a515f61d18a4fb61b7a2757cbccfb7b286b783dfb",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/operators/groupby.d.ts": {
+      "../node_modules/rxjs/internal/operators/groupBy.d.ts": {
         "version": "63e96248ab63f6e7a86e31aa3e654ed6de1c3f99e3b668e04800df05874e8b77",
         "signature": "63e96248ab63f6e7a86e31aa3e654ed6de1c3f99e3b668e04800df05874e8b77",
         "affectsGlobalScope": false
@@ -251,42 +251,42 @@
         "signature": "ed164267a8b206892d69768f51e6e7157ad0a6e89745fbd39f3e81c4700e9a9e",
         "affectsGlobalScope": true
       },
-      "../node_modules/rxjs/internal/behaviorsubject.d.ts": {
+      "../node_modules/rxjs/internal/BehaviorSubject.d.ts": {
         "version": "06a20cc7d937074863861ea1159ac783ff97b13952b4b5d1811c7d8ab5c94776",
         "signature": "06a20cc7d937074863861ea1159ac783ff97b13952b4b5d1811c7d8ab5c94776",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/replaysubject.d.ts": {
+      "../node_modules/rxjs/internal/ReplaySubject.d.ts": {
         "version": "ab6de4af0e293eae73b67dad251af097d7bcc0b8b62de84e3674e831514cb056",
         "signature": "ab6de4af0e293eae73b67dad251af097d7bcc0b8b62de84e3674e831514cb056",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/asyncsubject.d.ts": {
+      "../node_modules/rxjs/internal/AsyncSubject.d.ts": {
         "version": "18cbd79079af97af66c9c07c61b481fce14a4e7282eca078c474b40c970ba1d0",
         "signature": "18cbd79079af97af66c9c07c61b481fce14a4e7282eca078c474b40c970ba1d0",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/scheduler.d.ts": {
+      "../node_modules/rxjs/internal/Scheduler.d.ts": {
         "version": "e7b45405689d87e745a217b648d3646fb47a6aaba9c8d775204de90c7ea9ff35",
         "signature": "e7b45405689d87e745a217b648d3646fb47a6aaba9c8d775204de90c7ea9ff35",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/scheduler/action.d.ts": {
+      "../node_modules/rxjs/internal/scheduler/Action.d.ts": {
         "version": "669b754ec246dd7471e19b655b73bda6c2ca5bb7ccb1a4dff44a9ae45b6a716a",
         "signature": "669b754ec246dd7471e19b655b73bda6c2ca5bb7ccb1a4dff44a9ae45b6a716a",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts": {
+      "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts": {
         "version": "bcfaca4a8ff50f57fd36df91fba5d34056883f213baff7192cbfc4d3805d2084",
         "signature": "bcfaca4a8ff50f57fd36df91fba5d34056883f213baff7192cbfc4d3805d2084",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/scheduler/asyncaction.d.ts": {
+      "../node_modules/rxjs/internal/scheduler/AsyncAction.d.ts": {
         "version": "76a564b360b267502219a89514953058494713ee0923a63b2024e542c18b40e5",
         "signature": "76a564b360b267502219a89514953058494713ee0923a63b2024e542c18b40e5",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/scheduler/asapscheduler.d.ts": {
+      "../node_modules/rxjs/internal/scheduler/AsapScheduler.d.ts": {
         "version": "8f62cbd3afbd6a07bb8c934294b6bfbe437021b89e53a4da7de2648ecfc7af25",
         "signature": "8f62cbd3afbd6a07bb8c934294b6bfbe437021b89e53a4da7de2648ecfc7af25",
         "affectsGlobalScope": false
@@ -301,7 +301,7 @@
         "signature": "d6de66600c97cd499526ddecea6e12166ab1c0e8d9bf36fb2339fd39c8b3372a",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/scheduler/queuescheduler.d.ts": {
+      "../node_modules/rxjs/internal/scheduler/QueueScheduler.d.ts": {
         "version": "8e7a5b8f867b99cc8763c0b024068fb58e09f7da2c4810c12833e1ca6eb11c4f",
         "signature": "8e7a5b8f867b99cc8763c0b024068fb58e09f7da2c4810c12833e1ca6eb11c4f",
         "affectsGlobalScope": false
@@ -311,22 +311,22 @@
         "signature": "a8932876de2e3138a5a27f9426b225a4d27f0ba0a1e2764ba20930b4c3faf4b9",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/scheduler/animationframescheduler.d.ts": {
+      "../node_modules/rxjs/internal/scheduler/AnimationFrameScheduler.d.ts": {
         "version": "df877050b04c29b9f8409aa10278d586825f511f0841d1ec41b6554f8362092b",
         "signature": "df877050b04c29b9f8409aa10278d586825f511f0841d1ec41b6554f8362092b",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/scheduler/animationframe.d.ts": {
+      "../node_modules/rxjs/internal/scheduler/animationFrame.d.ts": {
         "version": "027d600e00c5f5e1816c207854285d736f2f5fa28276e2829db746d5d6811ba1",
         "signature": "027d600e00c5f5e1816c207854285d736f2f5fa28276e2829db746d5d6811ba1",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/scheduler/virtualtimescheduler.d.ts": {
+      "../node_modules/rxjs/internal/scheduler/VirtualTimeScheduler.d.ts": {
         "version": "5443113a16ef378446e08d6500bb48b35de582426459abdb5c9704f5c7d327d9",
         "signature": "5443113a16ef378446e08d6500bb48b35de582426459abdb5c9704f5c7d327d9",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/notification.d.ts": {
+      "../node_modules/rxjs/internal/Notification.d.ts": {
         "version": "0fb581ecb53304a3c95bb930160b4fa610537470cce850371cbaad5a458ca0d9",
         "signature": "0fb581ecb53304a3c95bb930160b4fa610537470cce850371cbaad5a458ca0d9",
         "affectsGlobalScope": false
@@ -346,57 +346,57 @@
         "signature": "914560d0c4c6aa947cfe7489fe970c94ba25383c414bbe0168b44fd20dbf0df4",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/util/isobservable.d.ts": {
+      "../node_modules/rxjs/internal/util/isObservable.d.ts": {
         "version": "4fb3405055b54566dea2135845c3a776339e7e170d692401d97fd41ad9a20e5d",
         "signature": "4fb3405055b54566dea2135845c3a776339e7e170d692401d97fd41ad9a20e5d",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/util/argumentoutofrangeerror.d.ts": {
+      "../node_modules/rxjs/internal/util/ArgumentOutOfRangeError.d.ts": {
         "version": "8d607832a6ef0eac30657173441367dd76c96bf7800d77193428b922e060c3af",
         "signature": "8d607832a6ef0eac30657173441367dd76c96bf7800d77193428b922e060c3af",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/util/emptyerror.d.ts": {
+      "../node_modules/rxjs/internal/util/EmptyError.d.ts": {
         "version": "20ff7207f0bb5cdde5fee8e83315ade7e5b8100cfa2087d20d39069a3d7d06f4",
         "signature": "20ff7207f0bb5cdde5fee8e83315ade7e5b8100cfa2087d20d39069a3d7d06f4",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/util/objectunsubscribederror.d.ts": {
+      "../node_modules/rxjs/internal/util/ObjectUnsubscribedError.d.ts": {
         "version": "7ca4c534eab7cff43d81327e369a23464bc37ef38ce5337ceff24a42c6c84eb2",
         "signature": "7ca4c534eab7cff43d81327e369a23464bc37ef38ce5337ceff24a42c6c84eb2",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/util/unsubscriptionerror.d.ts": {
+      "../node_modules/rxjs/internal/util/UnsubscriptionError.d.ts": {
         "version": "5252dec18a34078398be4e321dee884dc7f47930e5225262543a799b591b36d2",
         "signature": "5252dec18a34078398be4e321dee884dc7f47930e5225262543a799b591b36d2",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/util/timeouterror.d.ts": {
+      "../node_modules/rxjs/internal/util/TimeoutError.d.ts": {
         "version": "23caed4dff98bd28157d2b798b43f1dfefe727f18641648c01ce4e0e929a1630",
         "signature": "23caed4dff98bd28157d2b798b43f1dfefe727f18641648c01ce4e0e929a1630",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/observable/bindcallback.d.ts": {
+      "../node_modules/rxjs/internal/observable/bindCallback.d.ts": {
         "version": "f67e013d5374826596d7c23dbae1cdb14375a27cd72e16c5fb46a4b445059329",
         "signature": "f67e013d5374826596d7c23dbae1cdb14375a27cd72e16c5fb46a4b445059329",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/observable/bindnodecallback.d.ts": {
+      "../node_modules/rxjs/internal/observable/bindNodeCallback.d.ts": {
         "version": "ea3401b70e2302683bbf4c18b69ef2292b60f4d8f8e6d920413b81fb7bde0f65",
         "signature": "ea3401b70e2302683bbf4c18b69ef2292b60f4d8f8e6d920413b81fb7bde0f65",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/innersubscriber.d.ts": {
+      "../node_modules/rxjs/internal/InnerSubscriber.d.ts": {
         "version": "71afe26642c0fb86b9f8b1af4af5deb5181b43b6542a3ff2314871b53d04c749",
         "signature": "71afe26642c0fb86b9f8b1af4af5deb5181b43b6542a3ff2314871b53d04c749",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/outersubscriber.d.ts": {
+      "../node_modules/rxjs/internal/OuterSubscriber.d.ts": {
         "version": "0d7f01634e6234d84cf0106508efdb8ae00e5ed126eff9606d37b031ac1de654",
         "signature": "0d7f01634e6234d84cf0106508efdb8ae00e5ed126eff9606d37b031ac1de654",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/observable/combinelatest.d.ts": {
+      "../node_modules/rxjs/internal/observable/combineLatest.d.ts": {
         "version": "f8d209086bad78af6bd7fef063c1ed449c815e6f8d36058115f222d9f788b848",
         "signature": "f8d209086bad78af6bd7fef063c1ed449c815e6f8d36058115f222d9f788b848",
         "affectsGlobalScope": false
@@ -416,7 +416,7 @@
         "signature": "f664aaff6a981eeca68f1ff2d9fd21b6664f47bf45f3ae19874df5a6683a8d8a",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/observable/forkjoin.d.ts": {
+      "../node_modules/rxjs/internal/observable/forkJoin.d.ts": {
         "version": "ce066f85d73e09e9adbd0049bcf6471c7eefbfc2ec4b5692b5bcef1e36babd2a",
         "signature": "ce066f85d73e09e9adbd0049bcf6471c7eefbfc2ec4b5692b5bcef1e36babd2a",
         "affectsGlobalScope": false
@@ -426,12 +426,12 @@
         "signature": "09d302513cacfbcc54b67088739bd8ac1c3c57917f83f510b2d1adcb99fd7d2a",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/observable/fromevent.d.ts": {
+      "../node_modules/rxjs/internal/observable/fromEvent.d.ts": {
         "version": "3faa54e978b92a6f726440c13fe3ab35993dc74d697c7709681dc1764a25219f",
         "signature": "3faa54e978b92a6f726440c13fe3ab35993dc74d697c7709681dc1764a25219f",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/observable/fromeventpattern.d.ts": {
+      "../node_modules/rxjs/internal/observable/fromEventPattern.d.ts": {
         "version": "2bd0489e968925eb0c4c0fb12ef090be5165c86bd088e1e803102c38d4a717d8",
         "signature": "2bd0489e968925eb0c4c0fb12ef090be5165c86bd088e1e803102c38d4a717d8",
         "affectsGlobalScope": false
@@ -461,7 +461,7 @@
         "signature": "b303eda2ff2d582a9c3c5ecb708fb57355cdc25e8c8197a9f66d4d1bf09fda19",
         "affectsGlobalScope": false
       },
-      "../node_modules/rxjs/internal/observable/onerrorresumenext.d.ts": {
+      "../node_modules/rxjs/internal/observable/onErrorResumeNext.d.ts": {
         "version": "4e5dc89fa22ff43da3dee1db97d5add0591ebaff9e4adef6c8b6f0b41f0f60f0",
         "signature": "4e5dc89fa22ff43da3dee1db97d5add0591ebaff9e4adef6c8b6f0b41f0f60f0",
         "affectsGlobalScope": false
@@ -617,8 +617,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts": {
-        "version": "0c1348abf453cb61d1a52250ec2061278666c70d22500c10a4203f68d66cd814",
-        "signature": "0c1348abf453cb61d1a52250ec2061278666c70d22500c10a4203f68d66cd814",
+        "version": "21b9d408b49039cee3105baad1a78692df6bfe6acffd5141c1bb0bc95c6a7877",
+        "signature": "21b9d408b49039cee3105baad1a78692df6bfe6acffd5141c1bb0bc95c6a7877",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/common/interfaces/external/https-options.interface.d.ts": {
@@ -1036,7 +1036,7 @@
         "signature": "17d0601882b9ab77dc854b7f5105f437a5f9d22210f40c729814844dd540570d",
         "affectsGlobalScope": false
       },
-      "../node_modules/axios/index.d.ts": {
+      "../node_modules/@nestjs/common/node_modules/axios/index.d.ts": {
         "version": "e7df7eb51c5090db4bdcdbf9efe053530dff0e33796f40b08b1a3be6c3a351d0",
         "signature": "e7df7eb51c5090db4bdcdbf9efe053530dff0e33796f40b08b1a3be6c3a351d0",
         "affectsGlobalScope": false
@@ -1862,7 +1862,7 @@
         "affectsGlobalScope": false
       },
       "../src/members/members.controller.ts": {
-        "version": "11ed8127b9dde8e457cdcebfbecfc4ac168e1ae861283370643b5ae95e17fb50",
+        "version": "64a08028b6a4d9910dd6262913b9fb6b533aa52a39cb5a79b8f58c9655e6317a",
         "signature": "ed7f05848aa81f9267046b03d0f5591ed0f186739c5f4fc117212f93ffc9d4aa",
         "affectsGlobalScope": false
       },
@@ -1937,7 +1937,7 @@
         "affectsGlobalScope": false
       },
       "../src/transf/transf.service.ts": {
-        "version": "395ea9d1582605b988a40fe5ed928c99bdf4da52cb633381d8951fd4f0b6965d",
+        "version": "e2407ecaca607faf08f468577334e0f121af6c20246d9cc15ecc40208aaef9e9",
         "signature": "b379cfa3bd034e45ad6e93cda628ea833dd335c47b8e25f39de503e238f0d38e",
         "affectsGlobalScope": false
       },
@@ -1956,14 +1956,139 @@
         "signature": "447b753b3e76578ef29631d0bcca78bac6ce0b377c4ca60923c08c835f09e01e",
         "affectsGlobalScope": false
       },
-      "../src/app.module.ts": {
-        "version": "50ba72bc8e21c9e0b84e90d31133095e9275b39c3a500a3d68768e45d51b6554",
-        "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
+      "../src/categories/interfaces/category.interface.ts": {
+        "version": "f2e68bc5ea378f43fcf3d74724518d779d43cba93afdcfbd9ca3f6cc06da62a2",
+        "signature": "f0b08a504bc5c662d09c28a33c55dac4dae78275289595d33a71ef0c97db20bd",
+        "affectsGlobalScope": false
+      },
+      "../src/categories/dto/category.dto.ts": {
+        "version": "c00fd62013cb9d0f16670f0af872190820e2d0fc2f805731120f4b52b6c00048",
+        "signature": "1192a27642a711b89e323a0778cefbc91e45f43ccbd1370ce7f476e70ef26fff",
+        "affectsGlobalScope": false
+      },
+      "../src/categories/categories.service.ts": {
+        "version": "c46f0f760fc44f1c7fc6a128eb3afeb5f37c04ae2f4dff8fe2441f0d7b81e916",
+        "signature": "340f83288fdea9be078fdc3acb443ae3b6854c08166ee600b5a5da60523e2788",
+        "affectsGlobalScope": false
+      },
+      "../src/categories/categories.controller.ts": {
+        "version": "96950ed661d30c5a82a5559b8881e40217535d5e603705e2eccae638c7cebb63",
+        "signature": "c4c87aae960b40ceef995e71a5041effe4443712fabb9b44f4a38533eee2cba3",
+        "affectsGlobalScope": false
+      },
+      "../src/categories/schemas/category.schema.ts": {
+        "version": "493291c58c939bb605b6e66730959170e613e6bd2b944db18e271fed92be56ea",
+        "signature": "79eb05d2487e50923c58dd0d73d700ed3f2a8cb0f649d0132d4c63d9820813bb",
+        "affectsGlobalScope": false
+      },
+      "../src/categories/categories.module.ts": {
+        "version": "c7767fed744d63bf8c8b1178f8a124cd2d31e9849cb05c6c1b6870e9c733d45d",
+        "signature": "9274f32ebf8b2d1d06af54064328c360bb634e455dc47ea60abfe791040fc87d",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
         "version": "748dc5e30576ac07af1121893bb1beaafb0d7d0000142b69fae2b2995fc7f7f4",
         "signature": "748dc5e30576ac07af1121893bb1beaafb0d7d0000142b69fae2b2995fc7f7f4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts": {
+        "version": "b87682ddc9e2c3714ca66991cdd86ff7e18cae6fd010742a93bd612a07d19697",
+        "signature": "b87682ddc9e2c3714ca66991cdd86ff7e18cae6fd010742a93bd612a07d19697",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts": {
+        "version": "6b12a83a6198f2a6019f7e20f5362039095d4dae77ce9aec3e9a5351f74180f5",
+        "signature": "6b12a83a6198f2a6019f7e20f5362039095d4dae77ce9aec3e9a5351f74180f5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/adapters/index.d.ts": {
+        "version": "86bf2bfe29d0bc3fbc68e64c25ea6eab9bcb3c518ae941012ed75b1e87d391ae",
+        "signature": "86bf2bfe29d0bc3fbc68e64c25ea6eab9bcb3c518ae941012ed75b1e87d391ae",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts": {
+        "version": "c84f26d79f2c55c932ab7441fbaaceffb0ecb74aa01267ba8f3d65c3545f60ba",
+        "signature": "c84f26d79f2c55c932ab7441fbaaceffb0ecb74aa01267ba8f3d65c3545f60ba",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/interfaces/index.d.ts": {
+        "version": "68a330d1246e3f0ed055b931ab6f4f9505d7c2db0560515f68c722c06541dc0d",
+        "signature": "68a330d1246e3f0ed055b931ab6f4f9505d7c2db0560515f68c722c06541dc0d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts": {
+        "version": "8ae337fcd337d5ca179611dae780e7dbb45b3c0cbc6debc5067a4215e95cd873",
+        "signature": "8ae337fcd337d5ca179611dae780e7dbb45b3c0cbc6debc5067a4215e95cd873",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/multer/interceptors/any-files.interceptor.d.ts": {
+        "version": "00427e68be5cbfd0694c650ebf27dc9d5cb8ec62254ca5af0cd3e412595f8d09",
+        "signature": "00427e68be5cbfd0694c650ebf27dc9d5cb8ec62254ca5af0cd3e412595f8d09",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts": {
+        "version": "6a013828e3333e21fde3a4d1c7da0c41e8ce0218a98ad8e71025c2d437a2458b",
+        "signature": "6a013828e3333e21fde3a4d1c7da0c41e8ce0218a98ad8e71025c2d437a2458b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts": {
+        "version": "fc1a967ceb559957a8fd153d364596d7c906440c401e9a1f0ef9cda62a92a937",
+        "signature": "fc1a967ceb559957a8fd153d364596d7c906440c401e9a1f0ef9cda62a92a937",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts": {
+        "version": "fd09f594933708040bbab2ad98fdfd1f076209ff0d514cbc8ab50bc39f462619",
+        "signature": "fd09f594933708040bbab2ad98fdfd1f076209ff0d514cbc8ab50bc39f462619",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts": {
+        "version": "6db46ed9adeb732a2c46b05dd64a3fe85b2789065f1ef7668f583c61f1046a14",
+        "signature": "6db46ed9adeb732a2c46b05dd64a3fe85b2789065f1ef7668f583c61f1046a14",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts": {
+        "version": "5c684a0ecb10ed176fa8a6862f6290aad4818e88852b55ff7c27ead189315195",
+        "signature": "5c684a0ecb10ed176fa8a6862f6290aad4818e88852b55ff7c27ead189315195",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts": {
+        "version": "d8c1697db4bb3234ff3f8481545284992f1516bc712421b81ee3ef3f226ae112",
+        "signature": "d8c1697db4bb3234ff3f8481545284992f1516bc712421b81ee3ef3f226ae112",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/multer/multer.module.d.ts": {
+        "version": "549adfb8fb51148eeb2c0659941b3a508988ee0b00f325fbaae7e96bc4b3e4c9",
+        "signature": "549adfb8fb51148eeb2c0659941b3a508988ee0b00f325fbaae7e96bc4b3e4c9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/multer/index.d.ts": {
+        "version": "e2c3c3ca3818d610599392a9431e60ec021c5d59262ecd616538484990f6e331",
+        "signature": "e2c3c3ca3818d610599392a9431e60ec021c5d59262ecd616538484990f6e331",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/platform-express/index.d.ts": {
+        "version": "e3cd60be3c4f95c43420be67eaa21637585b7c1a8129f9b39983bbd294f9513c",
+        "signature": "e3cd60be3c4f95c43420be67eaa21637585b7c1a8129f9b39983bbd294f9513c",
+        "affectsGlobalScope": false
+      },
+      "../src/photos/photos.controller.ts": {
+        "version": "c49c05c22a7dfcc8aeabc08342d5eeee24a711219ba74b26ef84da263397e0ae",
+        "signature": "0d3a39d1ed71c0f1ad4c367c80251cbb351b457e1180a96de17b967c4ef28ca9",
+        "affectsGlobalScope": false
+      },
+      "../src/photos/photos.service.ts": {
+        "version": "44a967cbd4f5d7ba51eb6bac783e3f45e46c00c46252000776d4e3e6255fd1e9",
+        "signature": "d1788de0bd10af4bf03716aaa57c8660208d3ff2971c577132dfb4ba4a1ff24e",
+        "affectsGlobalScope": false
+      },
+      "../src/photos/photos.module.ts": {
+        "version": "141cf4bb52999e7f82f31a0ac6eb3f7ce63c44ff27bdb4b0d77898c4f023be0a",
+        "signature": "644dc530c1613808968e42f0cf5a5c776018f4a89470774c72dbd17232f9e958",
+        "affectsGlobalScope": false
+      },
+      "../src/app.module.ts": {
+        "version": "0104849943f97e050822325885baf4cab663fb0eba8c0e73c0c3fa9d87287cf1",
+        "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/core/adapters/index.d.ts": {
@@ -2142,8 +2267,13 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "30f450c04dca4cdc6bf920128d7415c67a50e69d71dcf0c15a56fa6559feafe6",
+        "version": "185f5a4bd4c7f044a2368614afe52e4901b54b492b3c4dca70569d68b3d721c1",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/utils/file-upload.utils.ts": {
+        "version": "0987715b332bbf3a5c90361e9c46d04edacd620882a4dc72bb96491093d3e6ca",
+        "signature": "a477f52c7fbd54f771c4d8d202447ecea9309abcbe4d6bc584e512b33d4a75cb",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/anymatch/index.d.ts": {
@@ -2221,7 +2351,7 @@
         "signature": "029769d13d9917e3284cb2356ed28a6576e8b07ae6a06ee1e672518adf21a102",
         "affectsGlobalScope": false
       },
-      "../node_modules/jest-diff/build/cleanupsemantic.d.ts": {
+      "../node_modules/jest-diff/build/cleanupSemantic.d.ts": {
         "version": "e222104af6cb9415238ad358488b74d76eceeff238c1268ec6e85655b05341da",
         "signature": "e222104af6cb9415238ad358488b74d76eceeff238c1268ec6e85655b05341da",
         "affectsGlobalScope": false
@@ -2231,12 +2361,12 @@
         "signature": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
         "affectsGlobalScope": false
       },
-      "../node_modules/jest-diff/build/difflines.d.ts": {
+      "../node_modules/jest-diff/build/diffLines.d.ts": {
         "version": "eba230221317c985ab1953ccc3edc517f248b37db4fef7875cb2c8d08aff7be7",
         "signature": "eba230221317c985ab1953ccc3edc517f248b37db4fef7875cb2c8d08aff7be7",
         "affectsGlobalScope": false
       },
-      "../node_modules/jest-diff/build/printdiffs.d.ts": {
+      "../node_modules/jest-diff/build/printDiffs.d.ts": {
         "version": "b83e796810e475da3564c6515bc0ae9577070596a33d89299b7d99f94ecfd921",
         "signature": "b83e796810e475da3564c6515bc0ae9577070596a33d89299b7d99f94ecfd921",
         "affectsGlobalScope": false
@@ -2275,6 +2405,11 @@
         "version": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
         "signature": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
         "affectsGlobalScope": false
+      },
+      "../node_modules/@types/multer/index.d.ts": {
+        "version": "3ee881b5584c5718935e6fe1fc1080b997682a3c8bebd17d51dccfd41c3e7da6",
+        "signature": "3ee881b5584c5718935e6fe1fc1080b997682a3c8bebd17d51dccfd41c3e7da6",
+        "affectsGlobalScope": true
       },
       "../node_modules/@types/normalize-package-data/index.d.ts": {
         "version": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
@@ -3050,12 +3185,12 @@
         "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/@nestjs/common/http/http.service.d.ts": [
+        "../node_modules/@nestjs/common/node_modules/axios/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/axios/index.d.ts",
         "../node_modules/rxjs/index.d.ts"
       ],
       "../node_modules/@nestjs/common/http/index.d.ts": [
@@ -3070,12 +3205,12 @@
       ],
       "../node_modules/@nestjs/common/http/interfaces/http-module.interface.d.ts": [
         "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/common/node_modules/axios/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/axios/index.d.ts"
+        "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/@nestjs/common/http/interfaces/index.d.ts": [
         "../node_modules/@nestjs/common/http/interfaces/http-module.interface.d.ts",
@@ -3544,6 +3679,13 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/rxjs/index.d.ts"
+      ],
+      "../node_modules/@nestjs/common/node_modules/axios/index.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/@nestjs/common/pipes/default-value.pipe.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -4341,6 +4483,152 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
+        "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/adapters/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/adapters/index.d.ts",
+        "../node_modules/@nestjs/platform-express/interfaces/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/multer.module.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/any-files.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/multer/interceptors/any-files.interceptor.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/ts3.7/index.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/multer.module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../node_modules/@types/anymatch/index.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -4562,6 +4850,15 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/ts3.7/index.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@types/multer/index.d.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/@types/node/async_hooks.d.ts": [
@@ -5208,27 +5505,20 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../node_modules/axios/index.d.ts": [
+      "../node_modules/jest-diff/build/cleanupSemantic.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../node_modules/jest-diff/build/cleanupsemantic.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/jest-diff/build/difflines.d.ts": [
+      "../node_modules/jest-diff/build/diffLines.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../node_modules/jest-diff/build/cleanupSemantic.d.ts",
         "../node_modules/jest-diff/build/types.d.ts"
       ],
       "../node_modules/jest-diff/build/index.d.ts": [
@@ -5237,18 +5527,18 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
-        "../node_modules/jest-diff/build/difflines.d.ts",
-        "../node_modules/jest-diff/build/printdiffs.d.ts",
+        "../node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../node_modules/jest-diff/build/diffLines.d.ts",
+        "../node_modules/jest-diff/build/printDiffs.d.ts",
         "../node_modules/jest-diff/build/types.d.ts"
       ],
-      "../node_modules/jest-diff/build/printdiffs.d.ts": [
+      "../node_modules/jest-diff/build/printDiffs.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../node_modules/jest-diff/build/cleanupSemantic.d.ts",
         "../node_modules/jest-diff/build/types.d.ts"
       ],
       "../node_modules/jest-diff/build/types.d.ts": [
@@ -5286,81 +5576,180 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/asyncsubject.d.ts",
-        "../node_modules/rxjs/internal/behaviorsubject.d.ts",
+        "../node_modules/rxjs/internal/AsyncSubject.d.ts",
+        "../node_modules/rxjs/internal/BehaviorSubject.d.ts",
+        "../node_modules/rxjs/internal/Notification.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/Operator.d.ts",
+        "../node_modules/rxjs/internal/ReplaySubject.d.ts",
+        "../node_modules/rxjs/internal/Scheduler.d.ts",
+        "../node_modules/rxjs/internal/Subject.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
         "../node_modules/rxjs/internal/config.d.ts",
-        "../node_modules/rxjs/internal/notification.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/observable/bindcallback.d.ts",
-        "../node_modules/rxjs/internal/observable/bindnodecallback.d.ts",
-        "../node_modules/rxjs/internal/observable/combinelatest.d.ts",
+        "../node_modules/rxjs/internal/observable/ConnectableObservable.d.ts",
+        "../node_modules/rxjs/internal/observable/bindCallback.d.ts",
+        "../node_modules/rxjs/internal/observable/bindNodeCallback.d.ts",
+        "../node_modules/rxjs/internal/observable/combineLatest.d.ts",
         "../node_modules/rxjs/internal/observable/concat.d.ts",
-        "../node_modules/rxjs/internal/observable/connectableobservable.d.ts",
         "../node_modules/rxjs/internal/observable/defer.d.ts",
         "../node_modules/rxjs/internal/observable/empty.d.ts",
-        "../node_modules/rxjs/internal/observable/forkjoin.d.ts",
+        "../node_modules/rxjs/internal/observable/forkJoin.d.ts",
         "../node_modules/rxjs/internal/observable/from.d.ts",
-        "../node_modules/rxjs/internal/observable/fromevent.d.ts",
-        "../node_modules/rxjs/internal/observable/fromeventpattern.d.ts",
+        "../node_modules/rxjs/internal/observable/fromEvent.d.ts",
+        "../node_modules/rxjs/internal/observable/fromEventPattern.d.ts",
         "../node_modules/rxjs/internal/observable/generate.d.ts",
         "../node_modules/rxjs/internal/observable/iif.d.ts",
         "../node_modules/rxjs/internal/observable/interval.d.ts",
         "../node_modules/rxjs/internal/observable/merge.d.ts",
         "../node_modules/rxjs/internal/observable/never.d.ts",
         "../node_modules/rxjs/internal/observable/of.d.ts",
-        "../node_modules/rxjs/internal/observable/onerrorresumenext.d.ts",
+        "../node_modules/rxjs/internal/observable/onErrorResumeNext.d.ts",
         "../node_modules/rxjs/internal/observable/pairs.d.ts",
         "../node_modules/rxjs/internal/observable/partition.d.ts",
         "../node_modules/rxjs/internal/observable/race.d.ts",
         "../node_modules/rxjs/internal/observable/range.d.ts",
-        "../node_modules/rxjs/internal/observable/throwerror.d.ts",
+        "../node_modules/rxjs/internal/observable/throwError.d.ts",
         "../node_modules/rxjs/internal/observable/timer.d.ts",
         "../node_modules/rxjs/internal/observable/using.d.ts",
         "../node_modules/rxjs/internal/observable/zip.d.ts",
-        "../node_modules/rxjs/internal/operator.d.ts",
-        "../node_modules/rxjs/internal/operators/groupby.d.ts",
-        "../node_modules/rxjs/internal/replaysubject.d.ts",
+        "../node_modules/rxjs/internal/operators/groupBy.d.ts",
         "../node_modules/rxjs/internal/scheduled/scheduled.d.ts",
-        "../node_modules/rxjs/internal/scheduler.d.ts",
-        "../node_modules/rxjs/internal/scheduler/animationframe.d.ts",
+        "../node_modules/rxjs/internal/scheduler/VirtualTimeScheduler.d.ts",
+        "../node_modules/rxjs/internal/scheduler/animationFrame.d.ts",
         "../node_modules/rxjs/internal/scheduler/asap.d.ts",
         "../node_modules/rxjs/internal/scheduler/async.d.ts",
         "../node_modules/rxjs/internal/scheduler/queue.d.ts",
-        "../node_modules/rxjs/internal/scheduler/virtualtimescheduler.d.ts",
-        "../node_modules/rxjs/internal/subject.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
         "../node_modules/rxjs/internal/symbol/observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts",
-        "../node_modules/rxjs/internal/util/argumentoutofrangeerror.d.ts",
-        "../node_modules/rxjs/internal/util/emptyerror.d.ts",
+        "../node_modules/rxjs/internal/util/ArgumentOutOfRangeError.d.ts",
+        "../node_modules/rxjs/internal/util/EmptyError.d.ts",
+        "../node_modules/rxjs/internal/util/ObjectUnsubscribedError.d.ts",
+        "../node_modules/rxjs/internal/util/TimeoutError.d.ts",
+        "../node_modules/rxjs/internal/util/UnsubscriptionError.d.ts",
         "../node_modules/rxjs/internal/util/identity.d.ts",
-        "../node_modules/rxjs/internal/util/isobservable.d.ts",
+        "../node_modules/rxjs/internal/util/isObservable.d.ts",
         "../node_modules/rxjs/internal/util/noop.d.ts",
-        "../node_modules/rxjs/internal/util/objectunsubscribederror.d.ts",
-        "../node_modules/rxjs/internal/util/pipe.d.ts",
-        "../node_modules/rxjs/internal/util/timeouterror.d.ts",
-        "../node_modules/rxjs/internal/util/unsubscriptionerror.d.ts"
+        "../node_modules/rxjs/internal/util/pipe.d.ts"
       ],
-      "../node_modules/rxjs/internal/asyncsubject.d.ts": [
+      "../node_modules/rxjs/internal/AsyncSubject.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/subject.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts"
+        "../node_modules/rxjs/internal/Subject.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts"
       ],
-      "../node_modules/rxjs/internal/behaviorsubject.d.ts": [
+      "../node_modules/rxjs/internal/BehaviorSubject.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/subject.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts"
+        "../node_modules/rxjs/internal/Subject.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts"
+      ],
+      "../node_modules/rxjs/internal/InnerSubscriber.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/OuterSubscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts"
+      ],
+      "../node_modules/rxjs/internal/Notification.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/Observable.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Operator.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/observable/iif.d.ts",
+        "../node_modules/rxjs/internal/observable/throwError.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/Operator.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/OuterSubscriber.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/InnerSubscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts"
+      ],
+      "../node_modules/rxjs/internal/ReplaySubject.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Subject.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/Scheduler.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/scheduler/Action.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/Subject.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/Operator.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/Subscriber.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/Subscription.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/config.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -5369,65 +5758,45 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../node_modules/rxjs/internal/innersubscriber.d.ts": [
+      "../node_modules/rxjs/internal/observable/ConnectableObservable.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/outersubscriber.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts"
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/Subject.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts"
       ],
-      "../node_modules/rxjs/internal/notification.d.ts": [
+      "../node_modules/rxjs/internal/observable/bindCallback.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/observable.d.ts": [
+      "../node_modules/rxjs/internal/observable/bindNodeCallback.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable/iif.d.ts",
-        "../node_modules/rxjs/internal/observable/throwerror.d.ts",
-        "../node_modules/rxjs/internal/operator.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/observable/bindcallback.d.ts": [
+      "../node_modules/rxjs/internal/observable/combineLatest.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/observable/bindnodecallback.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/observable/combinelatest.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/operator.d.ts",
-        "../node_modules/rxjs/internal/outersubscriber.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/Operator.d.ts",
+        "../node_modules/rxjs/internal/OuterSubscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/concat.d.ts": [
@@ -5436,19 +5805,8 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/observable/connectableobservable.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/subject.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/defer.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -5456,7 +5814,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/empty.d.ts": [
@@ -5465,16 +5823,16 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/observable/forkjoin.d.ts": [
+      "../node_modules/rxjs/internal/observable/forkJoin.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/from.d.ts": [
@@ -5483,25 +5841,25 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/observable/fromevent.d.ts": [
+      "../node_modules/rxjs/internal/observable/fromEvent.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts"
+        "../node_modules/rxjs/internal/Observable.d.ts"
       ],
-      "../node_modules/rxjs/internal/observable/fromeventpattern.d.ts": [
+      "../node_modules/rxjs/internal/observable/fromEventPattern.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/observable/fromevent.d.ts"
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/observable/fromEvent.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/generate.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -5509,7 +5867,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/iif.d.ts": [
@@ -5518,7 +5876,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/interval.d.ts": [
@@ -5527,7 +5885,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/merge.d.ts": [
@@ -5536,7 +5894,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/never.d.ts": [
@@ -5545,7 +5903,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts"
+        "../node_modules/rxjs/internal/Observable.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/of.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -5553,16 +5911,16 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/observable/onerrorresumenext.d.ts": [
+      "../node_modules/rxjs/internal/observable/onErrorResumeNext.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/pairs.d.ts": [
@@ -5571,9 +5929,9 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/partition.d.ts": [
@@ -5582,7 +5940,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/race.d.ts": [
@@ -5591,10 +5949,10 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/operator.d.ts",
-        "../node_modules/rxjs/internal/outersubscriber.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/Operator.d.ts",
+        "../node_modules/rxjs/internal/OuterSubscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/range.d.ts": [
@@ -5603,16 +5961,16 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/observable/throwerror.d.ts": [
+      "../node_modules/rxjs/internal/observable/throwError.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/timer.d.ts": [
@@ -5621,7 +5979,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/using.d.ts": [
@@ -5630,7 +5988,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/zip.d.ts": [
@@ -5639,50 +5997,21 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/operator.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/Operator.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/operator.d.ts": [
+      "../node_modules/rxjs/internal/operators/groupBy.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/operators/groupby.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/subject.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/outersubscriber.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/innersubscriber.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts"
-      ],
-      "../node_modules/rxjs/internal/replaysubject.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/subject.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/Subject.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/scheduled/scheduled.d.ts": [
@@ -5693,42 +6022,83 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/rxjs/index.d.ts"
       ],
-      "../node_modules/rxjs/internal/scheduler.d.ts": [
+      "../node_modules/rxjs/internal/scheduler/Action.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/action.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
+        "../node_modules/rxjs/internal/Scheduler.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/scheduler/action.d.ts": [
+      "../node_modules/rxjs/internal/scheduler/AnimationFrameScheduler.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncAction.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts"
+      ],
+      "../node_modules/rxjs/internal/scheduler/AsapScheduler.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncAction.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts"
+      ],
+      "../node_modules/rxjs/internal/scheduler/AsyncAction.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/scheduler/Action.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/scheduler/animationframe.d.ts": [
+      "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/animationframescheduler.d.ts"
+        "../node_modules/rxjs/internal/Scheduler.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/scheduler/Action.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncAction.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/scheduler/animationframescheduler.d.ts": [
+      "../node_modules/rxjs/internal/scheduler/QueueScheduler.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncaction.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts"
+        "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts"
+      ],
+      "../node_modules/rxjs/internal/scheduler/VirtualTimeScheduler.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncAction.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/scheduler/animationFrame.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AnimationFrameScheduler.d.ts"
       ],
       "../node_modules/rxjs/internal/scheduler/asap.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -5736,16 +6106,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asapscheduler.d.ts"
-      ],
-      "../node_modules/rxjs/internal/scheduler/asapscheduler.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncaction.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts"
+        "../node_modules/rxjs/internal/scheduler/AsapScheduler.d.ts"
       ],
       "../node_modules/rxjs/internal/scheduler/async.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -5753,30 +6114,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts"
-      ],
-      "../node_modules/rxjs/internal/scheduler/asyncaction.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/action.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler.d.ts",
-        "../node_modules/rxjs/internal/scheduler/action.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncaction.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
+        "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts"
       ],
       "../node_modules/rxjs/internal/scheduler/queue.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -5784,55 +6122,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/queuescheduler.d.ts"
-      ],
-      "../node_modules/rxjs/internal/scheduler/queuescheduler.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts"
-      ],
-      "../node_modules/rxjs/internal/scheduler/virtualtimescheduler.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncaction.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/subject.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/operator.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/subscriber.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/subscription.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
+        "../node_modules/rxjs/internal/scheduler/QueueScheduler.d.ts"
       ],
       "../node_modules/rxjs/internal/symbol/observable.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -5847,17 +6137,38 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts"
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts"
       ],
-      "../node_modules/rxjs/internal/util/argumentoutofrangeerror.d.ts": [
+      "../node_modules/rxjs/internal/util/ArgumentOutOfRangeError.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../node_modules/rxjs/internal/util/emptyerror.d.ts": [
+      "../node_modules/rxjs/internal/util/EmptyError.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/rxjs/internal/util/ObjectUnsubscribedError.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/rxjs/internal/util/TimeoutError.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/rxjs/internal/util/UnsubscriptionError.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -5871,22 +6182,15 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../node_modules/rxjs/internal/util/isobservable.d.ts": [
+      "../node_modules/rxjs/internal/util/isObservable.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts"
+        "../node_modules/rxjs/internal/Observable.d.ts"
       ],
       "../node_modules/rxjs/internal/util/noop.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/rxjs/internal/util/objectunsubscribederror.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -5900,20 +6204,6 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/util/timeouterror.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/rxjs/internal/util/unsubscriptionerror.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/source-map/source-map.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -6170,10 +6460,12 @@
         "../src/app.controller.ts",
         "../src/app.service.ts",
         "../src/auth/auth.module.ts",
+        "../src/categories/categories.module.ts",
         "../src/devices/devices.module.ts",
         "../src/login/login.module.ts",
         "../src/mail/mail.module.ts",
         "../src/members/members.module.ts",
+        "../src/photos/photos.module.ts",
         "../src/products/products.controller.ts",
         "../src/products/products.module.ts",
         "../src/products/products.service.ts",
@@ -6263,6 +6555,65 @@
         "../node_modules/@types/passport-local/index.d.ts",
         "../node_modules/rxjs/index.d.ts",
         "../src/auth/auth.service.ts"
+      ],
+      "../src/categories/categories.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/passport/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/auth/jwt-auth.guard.ts",
+        "../src/categories/categories.service.ts",
+        "../src/categories/dto/category.dto.ts"
+      ],
+      "../src/categories/categories.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/categories/categories.controller.ts",
+        "../src/categories/categories.service.ts",
+        "../src/categories/schemas/category.schema.ts"
+      ],
+      "../src/categories/categories.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/categories/dto/category.dto.ts",
+        "../src/categories/interfaces/category.interface.ts"
+      ],
+      "../src/categories/dto/category.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/categories/interfaces/category.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/categories/schemas/category.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
       ],
       "../src/devices/devices.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -6400,8 +6751,10 @@
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@types/express/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/path.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -6462,6 +6815,34 @@
       "../src/members/schemas/member.schema.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/photos/photos.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongodb/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/photos/photos.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/photos/photos.controller.ts",
+        "../src/photos/photos.service.ts"
+      ],
+      "../src/photos/photos.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
@@ -6648,6 +7029,14 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/utils/file-upload.utils.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/path.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
@@ -7817,6 +8206,13 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/rxjs/index.d.ts"
       ],
+      "../node_modules/@nestjs/common/node_modules/axios/index.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../node_modules/@nestjs/common/pipes/default-value.pipe.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -8613,6 +9009,152 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
+        "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/adapters/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/adapters/index.d.ts",
+        "../node_modules/@nestjs/platform-express/interfaces/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/multer.module.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/any-files.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/multer/interceptors/any-files.interceptor.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/ts3.7/index.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@nestjs/platform-express/multer/multer.module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../node_modules/@types/anymatch/index.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -8834,6 +9376,15 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/ts3.7/index.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@types/multer/index.d.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/@types/node/async_hooks.d.ts": [
@@ -9480,27 +10031,20 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../node_modules/axios/index.d.ts": [
+      "../node_modules/jest-diff/build/cleanupSemantic.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../node_modules/jest-diff/build/cleanupsemantic.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/jest-diff/build/difflines.d.ts": [
+      "../node_modules/jest-diff/build/diffLines.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../node_modules/jest-diff/build/cleanupSemantic.d.ts",
         "../node_modules/jest-diff/build/types.d.ts"
       ],
       "../node_modules/jest-diff/build/index.d.ts": [
@@ -9514,13 +10058,13 @@
         "../node_modules/jest-diff/build/printdiffs.d.ts",
         "../node_modules/jest-diff/build/types.d.ts"
       ],
-      "../node_modules/jest-diff/build/printdiffs.d.ts": [
+      "../node_modules/jest-diff/build/printDiffs.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/jest-diff/build/cleanupsemantic.d.ts",
+        "../node_modules/jest-diff/build/cleanupSemantic.d.ts",
         "../node_modules/jest-diff/build/types.d.ts"
       ],
       "../node_modules/jest-diff/build/types.d.ts": [
@@ -9614,25 +10158,124 @@
         "../node_modules/rxjs/internal/util/timeouterror.d.ts",
         "../node_modules/rxjs/internal/util/unsubscriptionerror.d.ts"
       ],
-      "../node_modules/rxjs/internal/asyncsubject.d.ts": [
+      "../node_modules/rxjs/internal/AsyncSubject.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/subject.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts"
+        "../node_modules/rxjs/internal/Subject.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts"
       ],
-      "../node_modules/rxjs/internal/behaviorsubject.d.ts": [
+      "../node_modules/rxjs/internal/BehaviorSubject.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/subject.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts"
+        "../node_modules/rxjs/internal/Subject.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts"
+      ],
+      "../node_modules/rxjs/internal/InnerSubscriber.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/OuterSubscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts"
+      ],
+      "../node_modules/rxjs/internal/Notification.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/Observable.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Operator.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/observable/iif.d.ts",
+        "../node_modules/rxjs/internal/observable/throwError.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/Operator.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/OuterSubscriber.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/InnerSubscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts"
+      ],
+      "../node_modules/rxjs/internal/ReplaySubject.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Subject.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/Scheduler.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/scheduler/Action.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/Subject.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/Operator.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/Subscriber.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/Subscription.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/config.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -9641,65 +10284,45 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../node_modules/rxjs/internal/innersubscriber.d.ts": [
+      "../node_modules/rxjs/internal/observable/ConnectableObservable.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/outersubscriber.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts"
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/Subject.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts"
       ],
-      "../node_modules/rxjs/internal/notification.d.ts": [
+      "../node_modules/rxjs/internal/observable/bindCallback.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/observable.d.ts": [
+      "../node_modules/rxjs/internal/observable/bindNodeCallback.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable/iif.d.ts",
-        "../node_modules/rxjs/internal/observable/throwerror.d.ts",
-        "../node_modules/rxjs/internal/operator.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/observable/bindcallback.d.ts": [
+      "../node_modules/rxjs/internal/observable/combineLatest.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/observable/bindnodecallback.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/observable/combinelatest.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/operator.d.ts",
-        "../node_modules/rxjs/internal/outersubscriber.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/Operator.d.ts",
+        "../node_modules/rxjs/internal/OuterSubscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/concat.d.ts": [
@@ -9710,17 +10333,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/rxjs/internal/observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/observable/connectableobservable.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/subject.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/defer.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -9740,13 +10352,13 @@
         "../node_modules/rxjs/internal/observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/observable/forkjoin.d.ts": [
+      "../node_modules/rxjs/internal/observable/forkJoin.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/from.d.ts": [
@@ -9758,22 +10370,22 @@
         "../node_modules/rxjs/internal/observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/observable/fromevent.d.ts": [
+      "../node_modules/rxjs/internal/observable/fromEvent.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts"
+        "../node_modules/rxjs/internal/Observable.d.ts"
       ],
-      "../node_modules/rxjs/internal/observable/fromeventpattern.d.ts": [
+      "../node_modules/rxjs/internal/observable/fromEventPattern.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/observable/fromevent.d.ts"
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/observable/fromEvent.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/generate.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -9828,13 +10440,13 @@
         "../node_modules/rxjs/internal/observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/observable/onerrorresumenext.d.ts": [
+      "../node_modules/rxjs/internal/observable/onErrorResumeNext.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/pairs.d.ts": [
@@ -9878,13 +10490,13 @@
         "../node_modules/rxjs/internal/observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/observable/throwerror.d.ts": [
+      "../node_modules/rxjs/internal/observable/throwError.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/observable/timer.d.ts": [
@@ -9916,45 +10528,16 @@
         "../node_modules/rxjs/internal/subscriber.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/operator.d.ts": [
+      "../node_modules/rxjs/internal/operators/groupBy.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/operators/groupby.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/subject.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/outersubscriber.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/innersubscriber.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts"
-      ],
-      "../node_modules/rxjs/internal/replaysubject.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/subject.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
+        "../node_modules/rxjs/internal/Observable.d.ts",
+        "../node_modules/rxjs/internal/Subject.d.ts",
+        "../node_modules/rxjs/internal/Subscriber.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/scheduled/scheduled.d.ts": [
@@ -9965,42 +10548,83 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/rxjs/index.d.ts"
       ],
-      "../node_modules/rxjs/internal/scheduler.d.ts": [
+      "../node_modules/rxjs/internal/scheduler/Action.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/action.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
+        "../node_modules/rxjs/internal/Scheduler.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/scheduler/action.d.ts": [
+      "../node_modules/rxjs/internal/scheduler/AnimationFrameScheduler.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncAction.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts"
+      ],
+      "../node_modules/rxjs/internal/scheduler/AsapScheduler.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncAction.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts"
+      ],
+      "../node_modules/rxjs/internal/scheduler/AsyncAction.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/scheduler/Action.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/scheduler/animationframe.d.ts": [
+      "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/animationframescheduler.d.ts"
+        "../node_modules/rxjs/internal/Scheduler.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/scheduler/Action.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncAction.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
       ],
-      "../node_modules/rxjs/internal/scheduler/animationframescheduler.d.ts": [
+      "../node_modules/rxjs/internal/scheduler/QueueScheduler.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncaction.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts"
+        "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts"
+      ],
+      "../node_modules/rxjs/internal/scheduler/VirtualTimeScheduler.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/Subscription.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncAction.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts",
+        "../node_modules/rxjs/internal/types.d.ts"
+      ],
+      "../node_modules/rxjs/internal/scheduler/animationFrame.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/rxjs/internal/scheduler/AnimationFrameScheduler.d.ts"
       ],
       "../node_modules/rxjs/internal/scheduler/asap.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -10010,15 +10634,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/rxjs/internal/scheduler/asapscheduler.d.ts"
       ],
-      "../node_modules/rxjs/internal/scheduler/asapscheduler.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncaction.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts"
-      ],
       "../node_modules/rxjs/internal/scheduler/async.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -10027,29 +10642,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts"
       ],
-      "../node_modules/rxjs/internal/scheduler/asyncaction.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/action.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler.d.ts",
-        "../node_modules/rxjs/internal/scheduler/action.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncaction.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
       "../node_modules/rxjs/internal/scheduler/queue.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -10057,54 +10649,6 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/rxjs/internal/scheduler/queuescheduler.d.ts"
-      ],
-      "../node_modules/rxjs/internal/scheduler/queuescheduler.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts"
-      ],
-      "../node_modules/rxjs/internal/scheduler/virtualtimescheduler.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncaction.d.ts",
-        "../node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/subject.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts",
-        "../node_modules/rxjs/internal/operator.d.ts",
-        "../node_modules/rxjs/internal/subscriber.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/subscriber.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/subscription.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/subscription.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/types.d.ts"
       ],
       "../node_modules/rxjs/internal/symbol/observable.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -10122,14 +10666,35 @@
         "../node_modules/rxjs/internal/observable.d.ts",
         "../node_modules/rxjs/internal/subscription.d.ts"
       ],
-      "../node_modules/rxjs/internal/util/argumentoutofrangeerror.d.ts": [
+      "../node_modules/rxjs/internal/util/ArgumentOutOfRangeError.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../node_modules/rxjs/internal/util/emptyerror.d.ts": [
+      "../node_modules/rxjs/internal/util/EmptyError.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/rxjs/internal/util/ObjectUnsubscribedError.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/rxjs/internal/util/TimeoutError.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/rxjs/internal/util/UnsubscriptionError.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -10143,22 +10708,15 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../node_modules/rxjs/internal/util/isobservable.d.ts": [
+      "../node_modules/rxjs/internal/util/isObservable.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../node_modules/rxjs/internal/observable.d.ts"
+        "../node_modules/rxjs/internal/Observable.d.ts"
       ],
       "../node_modules/rxjs/internal/util/noop.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/rxjs/internal/util/objectunsubscribederror.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -10172,20 +10730,6 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/rxjs/internal/types.d.ts"
-      ],
-      "../node_modules/rxjs/internal/util/timeouterror.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/rxjs/internal/util/unsubscriptionerror.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/source-map/source-map.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -10439,6 +10983,21 @@
         "../node_modules/@types/passport-local/index.d.ts",
         "../src/auth/auth.service.ts"
       ],
+      "../src/categories/categories.controller.ts": [
+        "../src/categories/categories.service.ts",
+        "../src/categories/dto/category.dto.ts"
+      ],
+      "../src/categories/categories.service.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../src/categories/dto/category.dto.ts",
+        "../src/categories/interfaces/category.interface.ts"
+      ],
+      "../src/categories/interfaces/category.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/categories/schemas/category.schema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
       "../src/devices/devices.controller.ts": [
         "../src/devices/devices.service.ts",
         "../src/devices/dto/device.dto.ts"
@@ -10517,7 +11076,508 @@
         "../src/transf/interfaces/transf.interface.ts"
       ]
     },
-    "semanticDiagnosticsPerFile": []
+    "semanticDiagnosticsPerFile": [
+      "../node_modules/@babel/parser/typings/babel-parser.d.ts",
+      "../node_modules/@babel/types/lib/index.d.ts",
+      "../node_modules/@nestjs-modules/mailer/dist/constants/mailer.constant.d.ts",
+      "../node_modules/@nestjs-modules/mailer/dist/index.d.ts",
+      "../node_modules/@nestjs-modules/mailer/dist/interfaces/mailer-async-options.interface.d.ts",
+      "../node_modules/@nestjs-modules/mailer/dist/interfaces/mailer-options-factory.interface.d.ts",
+      "../node_modules/@nestjs-modules/mailer/dist/interfaces/mailer-options.interface.d.ts",
+      "../node_modules/@nestjs-modules/mailer/dist/interfaces/mailer-transport-factory.interface.d.ts",
+      "../node_modules/@nestjs-modules/mailer/dist/interfaces/send-mail-options.interface.d.ts",
+      "../node_modules/@nestjs-modules/mailer/dist/interfaces/template-adapter.interface.d.ts",
+      "../node_modules/@nestjs-modules/mailer/dist/mailer.module.d.ts",
+      "../node_modules/@nestjs-modules/mailer/dist/mailer.service.d.ts",
+      "../node_modules/@nestjs-modules/mailer/index.d.ts",
+      "../node_modules/@nestjs/common/cache/cache.constants.d.ts",
+      "../node_modules/@nestjs/common/cache/cache.module.d.ts",
+      "../node_modules/@nestjs/common/cache/decorators/cache-key.decorator.d.ts",
+      "../node_modules/@nestjs/common/cache/decorators/cache-ttl.decorator.d.ts",
+      "../node_modules/@nestjs/common/cache/decorators/index.d.ts",
+      "../node_modules/@nestjs/common/cache/index.d.ts",
+      "../node_modules/@nestjs/common/cache/interceptors/cache.interceptor.d.ts",
+      "../node_modules/@nestjs/common/cache/interceptors/index.d.ts",
+      "../node_modules/@nestjs/common/cache/interfaces/cache-manager.interface.d.ts",
+      "../node_modules/@nestjs/common/cache/interfaces/cache-module.interface.d.ts",
+      "../node_modules/@nestjs/common/cache/interfaces/index.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/apply-decorators.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/bind.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/catch.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/controller.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/dependencies.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/exception-filters.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/index.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/inject.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/injectable.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/optional.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/set-metadata.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/use-guards.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/use-interceptors.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/core/use-pipes.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/create-route-param-metadata.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/header.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/http-code.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/index.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/redirect.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/render.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/request-mapping.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/http/route-params.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/index.d.ts",
+      "../node_modules/@nestjs/common/decorators/modules/global.decorator.d.ts",
+      "../node_modules/@nestjs/common/decorators/modules/index.d.ts",
+      "../node_modules/@nestjs/common/decorators/modules/module.decorator.d.ts",
+      "../node_modules/@nestjs/common/enums/http-status.enum.d.ts",
+      "../node_modules/@nestjs/common/enums/index.d.ts",
+      "../node_modules/@nestjs/common/enums/request-method.enum.d.ts",
+      "../node_modules/@nestjs/common/enums/shutdown-signal.enum.d.ts",
+      "../node_modules/@nestjs/common/exceptions/bad-gateway.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/bad-request.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/conflict.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/forbidden.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/gateway-timeout.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/gone.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/http-version-not-supported.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/http.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/im-a-teapot.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/index.d.ts",
+      "../node_modules/@nestjs/common/exceptions/internal-server-error.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/method-not-allowed.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/not-acceptable.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/not-found.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/not-implemented.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/payload-too-large.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/precondition-failed.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/request-timeout.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/service-unavailable.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/unauthorized.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/unprocessable-entity.exception.d.ts",
+      "../node_modules/@nestjs/common/exceptions/unsupported-media-type.exception.d.ts",
+      "../node_modules/@nestjs/common/http/http.module.d.ts",
+      "../node_modules/@nestjs/common/http/http.service.d.ts",
+      "../node_modules/@nestjs/common/http/index.d.ts",
+      "../node_modules/@nestjs/common/http/interfaces/http-module.interface.d.ts",
+      "../node_modules/@nestjs/common/http/interfaces/index.d.ts",
+      "../node_modules/@nestjs/common/index.d.ts",
+      "../node_modules/@nestjs/common/interfaces/abstract.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/controllers/controller-metadata.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/controllers/controller.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/exceptions/exception-filter.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/exceptions/rpc-exception-filter.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/exceptions/ws-exception-filter.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/external/class-transform-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/external/https-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/external/validation-error.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/external/validator-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/features/arguments-host.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/features/can-activate.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/features/custom-route-param-factory.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/features/execution-context.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/features/nest-interceptor.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/features/paramtype.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/features/pipe-transform.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/hooks/before-application-shutdown.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/hooks/index.d.ts",
+      "../node_modules/@nestjs/common/interfaces/hooks/on-application-bootstrap.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/hooks/on-application-shutdown.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/hooks/on-destroy.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/hooks/on-init.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/http/http-server.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/index.d.ts",
+      "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/microservices/nest-hybrid-application-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/middleware/index.d.ts",
+      "../node_modules/@nestjs/common/interfaces/middleware/middleware-config-proxy.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/middleware/middleware-configuration.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/middleware/middleware-consumer.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/middleware/nest-middleware.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/modules/dynamic-module.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/modules/forward-reference.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/modules/index.d.ts",
+      "../node_modules/@nestjs/common/interfaces/modules/introspection-result.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/modules/nest-module.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/modules/provider.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/nest-application-context.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/nest-application.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/nest-microservice.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/scope-options.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
+      "../node_modules/@nestjs/common/interfaces/websockets/web-socket-adapter.interface.d.ts",
+      "../node_modules/@nestjs/common/node_modules/axios/index.d.ts",
+      "../node_modules/@nestjs/common/pipes/default-value.pipe.d.ts",
+      "../node_modules/@nestjs/common/pipes/index.d.ts",
+      "../node_modules/@nestjs/common/pipes/parse-array.pipe.d.ts",
+      "../node_modules/@nestjs/common/pipes/parse-bool.pipe.d.ts",
+      "../node_modules/@nestjs/common/pipes/parse-int.pipe.d.ts",
+      "../node_modules/@nestjs/common/pipes/parse-uuid.pipe.d.ts",
+      "../node_modules/@nestjs/common/pipes/validation.pipe.d.ts",
+      "../node_modules/@nestjs/common/serializer/class-serializer.interceptor.d.ts",
+      "../node_modules/@nestjs/common/serializer/decorators/index.d.ts",
+      "../node_modules/@nestjs/common/serializer/decorators/serialize-options.decorator.d.ts",
+      "../node_modules/@nestjs/common/serializer/index.d.ts",
+      "../node_modules/@nestjs/common/services/index.d.ts",
+      "../node_modules/@nestjs/common/services/logger.service.d.ts",
+      "../node_modules/@nestjs/common/utils/forward-ref.util.d.ts",
+      "../node_modules/@nestjs/common/utils/http-error-by-code.util.d.ts",
+      "../node_modules/@nestjs/common/utils/index.d.ts",
+      "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
+      "../node_modules/@nestjs/core/adapters/index.d.ts",
+      "../node_modules/@nestjs/core/application-config.d.ts",
+      "../node_modules/@nestjs/core/constants.d.ts",
+      "../node_modules/@nestjs/core/discovery/discovery-module.d.ts",
+      "../node_modules/@nestjs/core/discovery/discovery-service.d.ts",
+      "../node_modules/@nestjs/core/discovery/index.d.ts",
+      "../node_modules/@nestjs/core/exceptions/base-exception-filter.d.ts",
+      "../node_modules/@nestjs/core/exceptions/index.d.ts",
+      "../node_modules/@nestjs/core/helpers/context-id-factory.d.ts",
+      "../node_modules/@nestjs/core/helpers/http-adapter-host.d.ts",
+      "../node_modules/@nestjs/core/helpers/index.d.ts",
+      "../node_modules/@nestjs/core/index.d.ts",
+      "../node_modules/@nestjs/core/injector/container.d.ts",
+      "../node_modules/@nestjs/core/injector/index.d.ts",
+      "../node_modules/@nestjs/core/injector/injector.d.ts",
+      "../node_modules/@nestjs/core/injector/inquirer/index.d.ts",
+      "../node_modules/@nestjs/core/injector/inquirer/inquirer-constants.d.ts",
+      "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
+      "../node_modules/@nestjs/core/injector/module-ref.d.ts",
+      "../node_modules/@nestjs/core/injector/module-token-factory.d.ts",
+      "../node_modules/@nestjs/core/injector/module.d.ts",
+      "../node_modules/@nestjs/core/injector/modules-container.d.ts",
+      "../node_modules/@nestjs/core/metadata-scanner.d.ts",
+      "../node_modules/@nestjs/core/middleware/builder.d.ts",
+      "../node_modules/@nestjs/core/middleware/index.d.ts",
+      "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts",
+      "../node_modules/@nestjs/core/nest-application-context.d.ts",
+      "../node_modules/@nestjs/core/nest-application.d.ts",
+      "../node_modules/@nestjs/core/nest-factory.d.ts",
+      "../node_modules/@nestjs/core/router/index.d.ts",
+      "../node_modules/@nestjs/core/router/request/index.d.ts",
+      "../node_modules/@nestjs/core/router/request/request-constants.d.ts",
+      "../node_modules/@nestjs/core/services/index.d.ts",
+      "../node_modules/@nestjs/core/services/reflector.service.d.ts",
+      "../node_modules/@nestjs/jwt/dist/index.d.ts",
+      "../node_modules/@nestjs/jwt/dist/interfaces/index.d.ts",
+      "../node_modules/@nestjs/jwt/dist/interfaces/jwt-module-options.interface.d.ts",
+      "../node_modules/@nestjs/jwt/dist/jwt.module.d.ts",
+      "../node_modules/@nestjs/jwt/dist/jwt.service.d.ts",
+      "../node_modules/@nestjs/jwt/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/common/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/decorators/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/decorators/prop.decorator.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/decorators/schema.decorator.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/factories/definitions.factory.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/factories/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/factories/schema.factory.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/interfaces/async-model-factory.interface.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/interfaces/model-definition.interface.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/utils/index.d.ts",
+      "../node_modules/@nestjs/mongoose/dist/utils/raw.util.d.ts",
+      "../node_modules/@nestjs/mongoose/index.d.ts",
+      "../node_modules/@nestjs/passport/dist/abstract.strategy.d.ts",
+      "../node_modules/@nestjs/passport/dist/auth.guard.d.ts",
+      "../node_modules/@nestjs/passport/dist/index.d.ts",
+      "../node_modules/@nestjs/passport/dist/interfaces/auth-module.options.d.ts",
+      "../node_modules/@nestjs/passport/dist/interfaces/index.d.ts",
+      "../node_modules/@nestjs/passport/dist/interfaces/type.interface.d.ts",
+      "../node_modules/@nestjs/passport/dist/passport.module.d.ts",
+      "../node_modules/@nestjs/passport/dist/passport/passport.serializer.d.ts",
+      "../node_modules/@nestjs/passport/dist/passport/passport.strategy.d.ts",
+      "../node_modules/@nestjs/passport/index.d.ts",
+      "../node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts",
+      "../node_modules/@nestjs/platform-express/adapters/index.d.ts",
+      "../node_modules/@nestjs/platform-express/index.d.ts",
+      "../node_modules/@nestjs/platform-express/interfaces/index.d.ts",
+      "../node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts",
+      "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/index.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interceptors/any-files.interceptor.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+      "../node_modules/@nestjs/platform-express/multer/multer.module.d.ts",
+      "../node_modules/@types/anymatch/index.d.ts",
+      "../node_modules/@types/babel__core/index.d.ts",
+      "../node_modules/@types/babel__generator/index.d.ts",
+      "../node_modules/@types/babel__template/index.d.ts",
+      "../node_modules/@types/babel__traverse/index.d.ts",
+      "../node_modules/@types/body-parser/index.d.ts",
+      "../node_modules/@types/bson/index.d.ts",
+      "../node_modules/@types/color-name/index.d.ts",
+      "../node_modules/@types/connect/index.d.ts",
+      "../node_modules/@types/cookiejar/index.d.ts",
+      "../node_modules/@types/ejs/index.d.ts",
+      "../node_modules/@types/eslint-visitor-keys/index.d.ts",
+      "../node_modules/@types/express-serve-static-core/index.d.ts",
+      "../node_modules/@types/express/index.d.ts",
+      "../node_modules/@types/graceful-fs/index.d.ts",
+      "../node_modules/@types/istanbul-lib-coverage/index.d.ts",
+      "../node_modules/@types/istanbul-lib-report/index.d.ts",
+      "../node_modules/@types/istanbul-reports/index.d.ts",
+      "../node_modules/@types/jest/index.d.ts",
+      "../node_modules/@types/jest/ts3.2/index.d.ts",
+      "../node_modules/@types/json-schema/index.d.ts",
+      "../node_modules/@types/json5/index.d.ts",
+      "../node_modules/@types/jsonwebtoken/index.d.ts",
+      "../node_modules/@types/mime/index.d.ts",
+      "../node_modules/@types/mongodb/index.d.ts",
+      "../node_modules/@types/mongoose/index.d.ts",
+      "../node_modules/@types/multer/index.d.ts",
+      "../node_modules/@types/node/async_hooks.d.ts",
+      "../node_modules/@types/node/base.d.ts",
+      "../node_modules/@types/node/buffer.d.ts",
+      "../node_modules/@types/node/child_process.d.ts",
+      "../node_modules/@types/node/cluster.d.ts",
+      "../node_modules/@types/node/console.d.ts",
+      "../node_modules/@types/node/constants.d.ts",
+      "../node_modules/@types/node/crypto.d.ts",
+      "../node_modules/@types/node/dgram.d.ts",
+      "../node_modules/@types/node/dns.d.ts",
+      "../node_modules/@types/node/domain.d.ts",
+      "../node_modules/@types/node/events.d.ts",
+      "../node_modules/@types/node/fs.d.ts",
+      "../node_modules/@types/node/globals.d.ts",
+      "../node_modules/@types/node/http.d.ts",
+      "../node_modules/@types/node/http2.d.ts",
+      "../node_modules/@types/node/https.d.ts",
+      "../node_modules/@types/node/inspector.d.ts",
+      "../node_modules/@types/node/module.d.ts",
+      "../node_modules/@types/node/net.d.ts",
+      "../node_modules/@types/node/os.d.ts",
+      "../node_modules/@types/node/path.d.ts",
+      "../node_modules/@types/node/perf_hooks.d.ts",
+      "../node_modules/@types/node/process.d.ts",
+      "../node_modules/@types/node/punycode.d.ts",
+      "../node_modules/@types/node/querystring.d.ts",
+      "../node_modules/@types/node/readline.d.ts",
+      "../node_modules/@types/node/repl.d.ts",
+      "../node_modules/@types/node/stream.d.ts",
+      "../node_modules/@types/node/string_decoder.d.ts",
+      "../node_modules/@types/node/timers.d.ts",
+      "../node_modules/@types/node/tls.d.ts",
+      "../node_modules/@types/node/trace_events.d.ts",
+      "../node_modules/@types/node/ts3.2/base.d.ts",
+      "../node_modules/@types/node/ts3.2/fs.d.ts",
+      "../node_modules/@types/node/ts3.2/globals.d.ts",
+      "../node_modules/@types/node/ts3.2/util.d.ts",
+      "../node_modules/@types/node/ts3.5/base.d.ts",
+      "../node_modules/@types/node/ts3.5/globals.global.d.ts",
+      "../node_modules/@types/node/ts3.5/wasi.d.ts",
+      "../node_modules/@types/node/ts3.7/assert.d.ts",
+      "../node_modules/@types/node/ts3.7/base.d.ts",
+      "../node_modules/@types/node/ts3.7/index.d.ts",
+      "../node_modules/@types/node/tty.d.ts",
+      "../node_modules/@types/node/url.d.ts",
+      "../node_modules/@types/node/util.d.ts",
+      "../node_modules/@types/node/v8.d.ts",
+      "../node_modules/@types/node/vm.d.ts",
+      "../node_modules/@types/node/worker_threads.d.ts",
+      "../node_modules/@types/node/zlib.d.ts",
+      "../node_modules/@types/normalize-package-data/index.d.ts",
+      "../node_modules/@types/parse-json/index.d.ts",
+      "../node_modules/@types/passport-jwt/index.d.ts",
+      "../node_modules/@types/passport-local/index.d.ts",
+      "../node_modules/@types/passport-strategy/index.d.ts",
+      "../node_modules/@types/passport/index.d.ts",
+      "../node_modules/@types/prettier/index.d.ts",
+      "../node_modules/@types/pug/index.d.ts",
+      "../node_modules/@types/qs/index.d.ts",
+      "../node_modules/@types/range-parser/index.d.ts",
+      "../node_modules/@types/serve-static/index.d.ts",
+      "../node_modules/@types/source-list-map/index.d.ts",
+      "../node_modules/@types/stack-utils/index.d.ts",
+      "../node_modules/@types/superagent/index.d.ts",
+      "../node_modules/@types/supertest/index.d.ts",
+      "../node_modules/@types/tapable/index.d.ts",
+      "../node_modules/@types/uglify-js/index.d.ts",
+      "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
+      "../node_modules/@types/webpack-sources/index.d.ts",
+      "../node_modules/@types/webpack/index.d.ts",
+      "../node_modules/@types/webpack/node_modules/source-map/source-map.d.ts",
+      "../node_modules/@types/yargs-parser/index.d.ts",
+      "../node_modules/@types/yargs/index.d.ts",
+      "../node_modules/anymatch/index.d.ts",
+      "../node_modules/jest-diff/build/cleanupSemantic.d.ts",
+      "../node_modules/jest-diff/build/diffLines.d.ts",
+      "../node_modules/jest-diff/build/index.d.ts",
+      "../node_modules/jest-diff/build/printDiffs.d.ts",
+      "../node_modules/jest-diff/build/types.d.ts",
+      "../node_modules/pretty-format/build/index.d.ts",
+      "../node_modules/pretty-format/build/types.d.ts",
+      "../node_modules/reflect-metadata/index.d.ts",
+      "../node_modules/rxjs/index.d.ts",
+      "../node_modules/rxjs/internal/AsyncSubject.d.ts",
+      "../node_modules/rxjs/internal/BehaviorSubject.d.ts",
+      "../node_modules/rxjs/internal/InnerSubscriber.d.ts",
+      "../node_modules/rxjs/internal/Notification.d.ts",
+      "../node_modules/rxjs/internal/Observable.d.ts",
+      "../node_modules/rxjs/internal/Operator.d.ts",
+      "../node_modules/rxjs/internal/OuterSubscriber.d.ts",
+      "../node_modules/rxjs/internal/ReplaySubject.d.ts",
+      "../node_modules/rxjs/internal/Scheduler.d.ts",
+      "../node_modules/rxjs/internal/Subject.d.ts",
+      "../node_modules/rxjs/internal/Subscriber.d.ts",
+      "../node_modules/rxjs/internal/Subscription.d.ts",
+      "../node_modules/rxjs/internal/config.d.ts",
+      "../node_modules/rxjs/internal/observable/ConnectableObservable.d.ts",
+      "../node_modules/rxjs/internal/observable/bindCallback.d.ts",
+      "../node_modules/rxjs/internal/observable/bindNodeCallback.d.ts",
+      "../node_modules/rxjs/internal/observable/combineLatest.d.ts",
+      "../node_modules/rxjs/internal/observable/concat.d.ts",
+      "../node_modules/rxjs/internal/observable/defer.d.ts",
+      "../node_modules/rxjs/internal/observable/empty.d.ts",
+      "../node_modules/rxjs/internal/observable/forkJoin.d.ts",
+      "../node_modules/rxjs/internal/observable/from.d.ts",
+      "../node_modules/rxjs/internal/observable/fromEvent.d.ts",
+      "../node_modules/rxjs/internal/observable/fromEventPattern.d.ts",
+      "../node_modules/rxjs/internal/observable/generate.d.ts",
+      "../node_modules/rxjs/internal/observable/iif.d.ts",
+      "../node_modules/rxjs/internal/observable/interval.d.ts",
+      "../node_modules/rxjs/internal/observable/merge.d.ts",
+      "../node_modules/rxjs/internal/observable/never.d.ts",
+      "../node_modules/rxjs/internal/observable/of.d.ts",
+      "../node_modules/rxjs/internal/observable/onErrorResumeNext.d.ts",
+      "../node_modules/rxjs/internal/observable/pairs.d.ts",
+      "../node_modules/rxjs/internal/observable/partition.d.ts",
+      "../node_modules/rxjs/internal/observable/race.d.ts",
+      "../node_modules/rxjs/internal/observable/range.d.ts",
+      "../node_modules/rxjs/internal/observable/throwError.d.ts",
+      "../node_modules/rxjs/internal/observable/timer.d.ts",
+      "../node_modules/rxjs/internal/observable/using.d.ts",
+      "../node_modules/rxjs/internal/observable/zip.d.ts",
+      "../node_modules/rxjs/internal/operators/groupBy.d.ts",
+      "../node_modules/rxjs/internal/scheduled/scheduled.d.ts",
+      "../node_modules/rxjs/internal/scheduler/Action.d.ts",
+      "../node_modules/rxjs/internal/scheduler/AnimationFrameScheduler.d.ts",
+      "../node_modules/rxjs/internal/scheduler/AsapScheduler.d.ts",
+      "../node_modules/rxjs/internal/scheduler/AsyncAction.d.ts",
+      "../node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts",
+      "../node_modules/rxjs/internal/scheduler/QueueScheduler.d.ts",
+      "../node_modules/rxjs/internal/scheduler/VirtualTimeScheduler.d.ts",
+      "../node_modules/rxjs/internal/scheduler/animationFrame.d.ts",
+      "../node_modules/rxjs/internal/scheduler/asap.d.ts",
+      "../node_modules/rxjs/internal/scheduler/async.d.ts",
+      "../node_modules/rxjs/internal/scheduler/queue.d.ts",
+      "../node_modules/rxjs/internal/symbol/observable.d.ts",
+      "../node_modules/rxjs/internal/types.d.ts",
+      "../node_modules/rxjs/internal/util/ArgumentOutOfRangeError.d.ts",
+      "../node_modules/rxjs/internal/util/EmptyError.d.ts",
+      "../node_modules/rxjs/internal/util/ObjectUnsubscribedError.d.ts",
+      "../node_modules/rxjs/internal/util/TimeoutError.d.ts",
+      "../node_modules/rxjs/internal/util/UnsubscriptionError.d.ts",
+      "../node_modules/rxjs/internal/util/identity.d.ts",
+      "../node_modules/rxjs/internal/util/isObservable.d.ts",
+      "../node_modules/rxjs/internal/util/noop.d.ts",
+      "../node_modules/rxjs/internal/util/pipe.d.ts",
+      "../node_modules/source-map/source-map.d.ts",
+      "../node_modules/typescript/lib/lib.dom.d.ts",
+      "../node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.full.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "../node_modules/typescript/lib/lib.es5.d.ts",
+      "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "../node_modules/typescript/lib/lib.scripthost.d.ts",
+      "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../src/app.controller.ts",
+      "../src/app.module.ts",
+      "../src/app.service.ts",
+      "../src/auth/auth.module.ts",
+      "../src/auth/auth.service.ts",
+      "../src/auth/constants.ts",
+      "../src/auth/jwt-auth.guard.ts",
+      "../src/auth/jwt.strategy.ts",
+      "../src/auth/local-auth.guard.ts",
+      "../src/auth/local.strategy.ts",
+      "../src/categories/categories.controller.ts",
+      "../src/categories/categories.module.ts",
+      "../src/categories/categories.service.ts",
+      "../src/categories/dto/category.dto.ts",
+      "../src/categories/interfaces/category.interface.ts",
+      "../src/categories/schemas/category.schema.ts",
+      "../src/devices/devices.controller.ts",
+      "../src/devices/devices.module.ts",
+      "../src/devices/devices.service.ts",
+      "../src/devices/dto/device.dto.ts",
+      "../src/devices/interfaces/device.interface.ts",
+      "../src/devices/schemas/device.schema.ts",
+      "../src/login/dto/login.dto.ts",
+      "../src/login/interfaces/login.interface.ts",
+      "../src/login/login.controller.ts",
+      "../src/login/login.module.ts",
+      "../src/login/login.service.ts",
+      "../src/login/schemas/login.schema.ts",
+      "../src/mail/mail.module.ts",
+      "../src/mail/mail.service.ts",
+      "../src/main.ts",
+      "../src/members/dto/member.dto.ts",
+      "../src/members/interfaces/member.interface.ts",
+      "../src/members/members.controller.ts",
+      "../src/members/members.module.ts",
+      "../src/members/members.service.ts",
+      "../src/members/schemas/member.schema.ts",
+      "../src/photos/photos.controller.ts",
+      "../src/photos/photos.module.ts",
+      "../src/photos/photos.service.ts",
+      "../src/products/dto/product.dto.ts",
+      "../src/products/interfaces/product.interface.ts",
+      "../src/products/products.controller.ts",
+      "../src/products/products.module.ts",
+      "../src/products/products.service.ts",
+      "../src/products/schemas/product.schema.ts",
+      "../src/services/services.controller.ts",
+      "../src/services/services.module.ts",
+      "../src/services/services.service.ts",
+      "../src/talents/talents.module.ts",
+      "../src/talents/talents/talents.controller.ts",
+      "../src/talents/talents/talents.service.ts",
+      "../src/transf/dto/transf.dto.ts",
+      "../src/transf/interfaces/transf.interface.ts",
+      "../src/transf/schemas/transf.schema.ts",
+      "../src/transf/transf.controller.ts",
+      "../src/transf/transf.module.ts",
+      "../src/transf/transf.service.ts",
+      "../src/users/users.module.ts",
+      "../src/users/users.service.ts",
+      "../src/utils/file-upload.utils.ts"
+    ]
   },
   "version": "3.9.7"
 }

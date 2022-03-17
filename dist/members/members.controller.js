@@ -45,8 +45,6 @@ let MembersController = class MembersController {
     }
     async GetAll(res) {
         const members = await this.member.getAll();
-        const mail = await this.mailService.sendUserConfirmation();
-        console.log(mail);
         return res.status(common_1.HttpStatus.OK).json(members);
     }
     async GetMember(Res, cellphone) {

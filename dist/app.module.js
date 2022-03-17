@@ -21,6 +21,8 @@ const login_module_1 = require("./login/login.module");
 const services_module_1 = require("./services/services.module");
 const transf_module_1 = require("./transf/transf.module");
 const mail_module_1 = require("./mail/mail.module");
+const categories_module_1 = require("./categories/categories.module");
+const photos_module_1 = require("./photos/photos.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -33,7 +35,9 @@ AppModule = __decorate([
             login_module_1.LoginModule,
             services_module_1.ServicesModule,
             transf_module_1.TransfModule,
-            mail_module_1.MailModule],
+            mail_module_1.MailModule,
+            categories_module_1.CategoriesModule,
+            photos_module_1.PhotosModule],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
     })

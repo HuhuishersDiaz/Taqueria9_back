@@ -15,6 +15,10 @@ import { LoginModule } from './login/login.module';
 import { ServicesModule } from './services/services.module';
 import { TransfModule } from './transf/transf.module';
 import { MailModule } from './mail/mail.module';
+import { CategoriesModule } from './categories/categories.module';
+import { PhotosModule } from './photos/photos.module';
+
+
 
 @Module({
   imports: [AuthModule, UsersModule,ProductsModule,
@@ -25,7 +29,9 @@ import { MailModule } from './mail/mail.module';
   LoginModule,
   ServicesModule,
   TransfModule,
-  MailModule],
+  MailModule,
+  CategoriesModule,
+  PhotosModule],
   controllers: [AppController],
   providers: [AppService],
 })

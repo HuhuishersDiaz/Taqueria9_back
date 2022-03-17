@@ -12,26 +12,29 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.TransfService = void 0;
+exports.CategoriesService = void 0;
 const common_1 = require("@nestjs/common");
 const mongoose_1 = require("mongoose");
 const mongoose_2 = require("@nestjs/mongoose");
-let TransfService = class TransfService {
-    constructor(TransfModel) {
-        this.TransfModel = TransfModel;
+let CategoriesService = class CategoriesService {
+    constructor(CategoryModel) {
+        this.CategoryModel = CategoryModel;
     }
-    async create(TransfDTO) {
-        const createdTransfer = new this.TransfModel(TransfDTO);
-        return createdTransfer.save();
+    async getAll() {
+        return await this.CategoryModel.find();
     }
-    async getInfo(code) {
-        return await this.TransfModel.find({ receiver: code }).exec();
+    async getCategory(cat) {
+        return await this.CategoryModel.find({ code: cat }).exec();
+    }
+    async create(CategoryDTO) {
+        const createdCategory = new this.CategoryModel(CategoryDTO);
+        return createdCategory.save();
     }
 };
-TransfService = __decorate([
+CategoriesService = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_2.InjectModel('Transf')),
+    __param(0, mongoose_2.InjectModel('Category')),
     __metadata("design:paramtypes", [mongoose_1.Model])
-], TransfService);
-exports.TransfService = TransfService;
-//# sourceMappingURL=transf.service.js.map
+], CategoriesService);
+exports.CategoriesService = CategoriesService;
+//# sourceMappingURL=categories.service.js.map
