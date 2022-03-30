@@ -9,7 +9,7 @@ export class PhotosController {
     @Post("upload")
     @UseInterceptors(
         FileInterceptor("photo",{
-            dest: "./uploads",
+            dest: "/var/www/html/taqueria9/uploads",
             fileFilter: function(req, file, cb){
                 file.filename = file.originalname;
                 cb(null,true);
@@ -20,7 +20,7 @@ export class PhotosController {
            const uri = "mongodb://localhost:27017";
         const client = new MongoClient.connect(uri, function(err, db){
             if (err) throw err;
-            const dbo = db.db("enginedb");
+            const dbo = db.db("cms");
             dbo.collection("photos").insertOne(file, function(err, res) {
                if (err) throw err;
                console.log("1 document inserted");
@@ -29,7 +29,7 @@ export class PhotosController {
         });
         
         var fs = require('fs');
-fs.rename('./uploads/'+ file.filename, './uploads/'+file.originalname , function(err) {
+fs.rename('/var/www/html/taqueria9/uploads/'+ file.filename, '/var/www/html/taqueria9/uploads/'+file.originalname , function(err) {
     if (err) throw err;
     console.log("file renamed");
 }); 

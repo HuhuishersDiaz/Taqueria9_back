@@ -22,7 +22,7 @@ let PhotosController = class PhotosController {
         const client = new mongodb_1.MongoClient.connect(uri, function (err, db) {
             if (err)
                 throw err;
-            const dbo = db.db("enginedb");
+            const dbo = db.db("cms");
             dbo.collection("photos").insertOne(file, function (err, res) {
                 if (err)
                     throw err;
@@ -30,7 +30,7 @@ let PhotosController = class PhotosController {
             });
         });
         var fs = require('fs');
-        fs.rename('./uploads/' + file.filename, './uploads/' + file.originalname, function (err) {
+        fs.rename('/var/www/html/taqueria9/uploads/' + file.filename, '/var/www/html/taqueria9/uploads/' + file.originalname, function (err) {
             if (err)
                 throw err;
             console.log("file renamed");
@@ -42,7 +42,7 @@ let PhotosController = class PhotosController {
 __decorate([
     common_1.Post("upload"),
     common_1.UseInterceptors(platform_express_1.FileInterceptor("photo", {
-        dest: "./uploads",
+        dest: "/var/www/html/taqueria9/uploads",
         fileFilter: function (req, file, cb) {
             file.filename = file.originalname;
             cb(null, true);

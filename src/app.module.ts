@@ -22,7 +22,8 @@ import { PhotosModule } from './photos/photos.module';
 
 @Module({
   imports: [AuthModule, UsersModule,ProductsModule,
-  MongooseModule.forRoot("mongodb://localhost:27017/enginedb",{useFindAndModify:false}),
+ // MongooseModule.forRoot("mongodb://ec2-3-142-95-26.us-east-2.compute.amazonaws.com:27017/cms",{useFindAndModify:false}),
+  MongooseModule.forRoot("mongodb://localhost:27017/cms",{useFindAndModify:false}),
   DevicesModule,
   MembersModule,
   TalentsModule,
