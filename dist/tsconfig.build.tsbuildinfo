@@ -1972,7 +1972,7 @@
         "affectsGlobalScope": false
       },
       "../src/categories/categories.controller.ts": {
-        "version": "96950ed661d30c5a82a5559b8881e40217535d5e603705e2eccae638c7cebb63",
+        "version": "edfecbacbe777b48805a8d5f3f63d3ebaa01edf0dd1cd0dc0a85398e82a676dc",
         "signature": "c4c87aae960b40ceef995e71a5041effe4443712fabb9b44f4a38533eee2cba3",
         "affectsGlobalScope": false
       },
@@ -2086,8 +2086,83 @@
         "signature": "644dc530c1613808968e42f0cf5a5c776018f4a89470774c72dbd17232f9e958",
         "affectsGlobalScope": false
       },
+      "../src/push/push.controller.ts": {
+        "version": "4096090f53376b689b2daf71ad1494a78c20472c53f0cd206a16c0d5445f4b9c",
+        "signature": "46cacb99c436dc22a95674ee8e091df8fbde558df29c8e27cd909c8aa62c2ec4",
+        "affectsGlobalScope": false
+      },
+      "../src/push/push.service.ts": {
+        "version": "54407ef41ebf901050458fd586cb96c00ac1ccd42cf14eeb93ebcc6155e00ba0",
+        "signature": "12fbf17e16d02e6d2e4a63b0845a1e89ab76d19d7c4814dacb8ab96f65f95498",
+        "affectsGlobalScope": false
+      },
+      "../src/push/push.module.ts": {
+        "version": "d92f68cf770633345b5d5b1d93f39eb393994eb55ff5e8ee3200083c87a60f8a",
+        "signature": "198cb256f6ccf69e0e59d492d2c864803e082a900db5754a8ae6993ba5afd394",
+        "affectsGlobalScope": false
+      },
+      "../src/tokens/interfaces/token.interface.ts": {
+        "version": "0c91f7c3fd8749d65f72b577eb65b65c2595c0305cee6c143451fe5130d24cb8",
+        "signature": "774b8564d4a6da6457485c0b77e5a71e9a8fae394038e14278d099d08d83d55c",
+        "affectsGlobalScope": false
+      },
+      "../src/tokens/dto/token.dto.ts": {
+        "version": "d6a57acb12e119b401b884724b440a5a452796e331498a0782abc88505c65a1c",
+        "signature": "371a6ff3b8aba9d0a4f62d4a8584175a4ee7f3cf0f0a3803136e668015b5a107",
+        "affectsGlobalScope": false
+      },
+      "../src/tokens/tokens.service.ts": {
+        "version": "c94913049b17dcf8a47d163a95698c4f51be1f8e06193a96dde6b77db0b9c0d2",
+        "signature": "f6e23401c0cdd5fd2c2142e4ec5e07fe38724df3aa29d9edb93b528a3c909f68",
+        "affectsGlobalScope": false
+      },
+      "../src/tokens/tokens.controller.ts": {
+        "version": "45a5b65e5db530446f583813c19bdad8732c07c05b8cb9cb0a2e4642623baa53",
+        "signature": "f3e1bbb41a96c08741415e8cbf330142c7aec67b6dbe95154b319994b2217f2e",
+        "affectsGlobalScope": false
+      },
+      "../src/tokens/schemas/token.schema.ts": {
+        "version": "3802821d5bd54280d7032dc7ab73ca8e424bba5474675301ceac1276cba7b962",
+        "signature": "9cc1980613aed2e258c4efeaf59b7b1ecce892024e58d711225aef4f91d555af",
+        "affectsGlobalScope": false
+      },
+      "../src/tokens/tokens.module.ts": {
+        "version": "0e6ea1e09571e32a6435f3c5bb3498e02613fccbd430ef3b627fbe83dee13e6d",
+        "signature": "49ec3937cd150a905886a665c192b04d03c7dd72b643b4ca3f3f38305d150a4d",
+        "affectsGlobalScope": false
+      },
+      "../src/banners/interfaces/banner.interface.ts": {
+        "version": "d41a4f1f4304b9625724f839eeb32a7724ad07dda855956887474cb0175da048",
+        "signature": "69464ee9d669a606a1af4a4345a64b1bb634894ae82b0ef12b3c1dd0317cf927",
+        "affectsGlobalScope": false
+      },
+      "../src/banners/dto/banner.dto.ts": {
+        "version": "132a31611a771cfb3f02563e01c6e0b09a5d3a62943a36e1694de2f3caced3b1",
+        "signature": "51e555f86be3fbc44524912c80a18c3eac913e71db43730925077cc8d347bcae",
+        "affectsGlobalScope": false
+      },
+      "../src/banners/banners.service.ts": {
+        "version": "640d77e7b6b504ae5b0fcad023931ce2863be7ca3fb4d87313cfd56fcbee8eef",
+        "signature": "76d4ebded86415d982f2c823fec745f9ddff09956f16467e89f1f463a32fc9ce",
+        "affectsGlobalScope": false
+      },
+      "../src/banners/banners.controller.ts": {
+        "version": "52c993b446788663d41a60935d70baba29c2417fb76a5f9dfdd1ae940d9d2471",
+        "signature": "202c40d153913940e24d1ec830bba22a80be7e187aa1cde97dc51722c68db7cb",
+        "affectsGlobalScope": false
+      },
+      "../src/banners/schemas/banner.schema.ts": {
+        "version": "c42f0340d7d7cb8a22b3b178a059c6e59e0ef71c44d44705887953a22c4de6a9",
+        "signature": "2620ba2604aa3860b6682562ebfb5b43281ebafc69603d39d843b092a6b7f9e2",
+        "affectsGlobalScope": false
+      },
+      "../src/banners/banners.module.ts": {
+        "version": "7cfff7bcebe0ba10a09ac014dcbd00f584a3f8f6f8cf010c9e2d2847fec3114c",
+        "signature": "959fb21cf241aac73437c7a1d310750e0f8f1f79a3e07dbd80975e503c440cd1",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "60788c4ef9c9ec97a6d78ed69d3e9e56e436cd811e967881751b809ad70f43ed",
+        "version": "a2971a8242555ed027e2f7ed7e755c43d4f440e572bf6fdb95754f9f3b354964",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -2269,6 +2344,21 @@
       "../src/main.ts": {
         "version": "dba9a7991ba7d8a7e7ec36d3920aa1eb244897864e3587809f7a3074bb8b1569",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/push/dto/push.dto.ts": {
+        "version": "552662282fd999b69ab222f05b04a924fef14ee652a1135a114acd60424a1b52",
+        "signature": "ac3efc04411bfe470f0df136a0dc1f10836e3da6315f9b2a7050748777ba9955",
+        "affectsGlobalScope": false
+      },
+      "../src/push/interfaces/push.interface.ts": {
+        "version": "8af1a1a27ce88940ec683bb49707604f374d36ffb973be092307ee4cdcf2a715",
+        "signature": "b222dddd79977bf865b733a02ee9894a1af23d34106552f8eb736f4616a1edd1",
+        "affectsGlobalScope": false
+      },
+      "../src/push/schemas/push.schema.ts": {
+        "version": "d4dd41d303b4356528fba5f76861727fa0d6ef2ee55e8835b334a0270b9e2feb",
+        "signature": "d7c42581c6a737a7a596f765eb52d36a1764df2c52a1a9e18f54ac770ffcbb03",
         "affectsGlobalScope": false
       },
       "../src/utils/file-upload.utils.ts": {
@@ -6460,6 +6550,7 @@
         "../src/app.controller.ts",
         "../src/app.service.ts",
         "../src/auth/auth.module.ts",
+        "../src/banners/banners.module.ts",
         "../src/categories/categories.module.ts",
         "../src/devices/devices.module.ts",
         "../src/login/login.module.ts",
@@ -6470,8 +6561,10 @@
         "../src/products/products.module.ts",
         "../src/products/products.service.ts",
         "../src/products/schemas/product.schema.ts",
+        "../src/push/push.module.ts",
         "../src/services/services.module.ts",
         "../src/talents/talents.module.ts",
+        "../src/tokens/tokens.module.ts",
         "../src/transf/transf.module.ts",
         "../src/users/users.module.ts"
       ],
@@ -6555,6 +6648,65 @@
         "../node_modules/@types/passport-local/index.d.ts",
         "../node_modules/rxjs/index.d.ts",
         "../src/auth/auth.service.ts"
+      ],
+      "../src/banners/banners.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/passport/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/auth/jwt-auth.guard.ts",
+        "../src/banners/banners.service.ts",
+        "../src/banners/dto/banner.dto.ts"
+      ],
+      "../src/banners/banners.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/banners/banners.controller.ts",
+        "../src/banners/banners.service.ts",
+        "../src/banners/schemas/banner.schema.ts"
+      ],
+      "../src/banners/banners.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/banners/dto/banner.dto.ts",
+        "../src/banners/interfaces/banner.interface.ts"
+      ],
+      "../src/banners/dto/banner.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/banners/interfaces/banner.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/banners/schemas/banner.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
       ],
       "../src/categories/categories.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -6907,6 +7059,55 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../src/push/dto/push.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/push/interfaces/push.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/push/push.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/push/push.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/push/push.controller.ts",
+        "../src/push/push.service.ts"
+      ],
+      "../src/push/push.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/push/schemas/push.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../src/services/services.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -6958,6 +7159,65 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/tokens/dto/token.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/tokens/interfaces/token.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/tokens/schemas/token.schema.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/tokens/tokens.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/passport/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/auth/jwt-auth.guard.ts",
+        "../src/tokens/dto/token.dto.ts",
+        "../src/tokens/tokens.service.ts"
+      ],
+      "../src/tokens/tokens.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/tokens/schemas/token.schema.ts",
+        "../src/tokens/tokens.controller.ts",
+        "../src/tokens/tokens.service.ts"
+      ],
+      "../src/tokens/tokens.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/tokens/dto/token.dto.ts",
+        "../src/tokens/interfaces/token.interface.ts"
       ],
       "../src/transf/dto/transf.dto.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -10983,6 +11243,21 @@
         "../node_modules/@types/passport-local/index.d.ts",
         "../src/auth/auth.service.ts"
       ],
+      "../src/banners/banners.controller.ts": [
+        "../src/banners/banners.service.ts",
+        "../src/banners/dto/banner.dto.ts"
+      ],
+      "../src/banners/banners.service.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../src/banners/dto/banner.dto.ts",
+        "../src/banners/interfaces/banner.interface.ts"
+      ],
+      "../src/banners/interfaces/banner.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/banners/schemas/banner.schema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
       "../src/categories/categories.controller.ts": [
         "../src/categories/categories.service.ts",
         "../src/categories/dto/category.dto.ts"
@@ -11059,6 +11334,27 @@
       ],
       "../src/products/schemas/product.schema.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/push/interfaces/push.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/push/schemas/push.schema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/tokens/interfaces/token.interface.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/tokens/schemas/token.schema.ts": [
+        "../node_modules/@types/mongoose/index.d.ts"
+      ],
+      "../src/tokens/tokens.controller.ts": [
+        "../src/tokens/dto/token.dto.ts",
+        "../src/tokens/tokens.service.ts"
+      ],
+      "../src/tokens/tokens.service.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../src/tokens/dto/token.dto.ts",
+        "../src/tokens/interfaces/token.interface.ts"
       ],
       "../src/transf/interfaces/transf.interface.ts": [
         "../node_modules/@types/mongoose/index.d.ts"
@@ -11526,6 +11822,12 @@
       "../src/auth/jwt.strategy.ts",
       "../src/auth/local-auth.guard.ts",
       "../src/auth/local.strategy.ts",
+      "../src/banners/banners.controller.ts",
+      "../src/banners/banners.module.ts",
+      "../src/banners/banners.service.ts",
+      "../src/banners/dto/banner.dto.ts",
+      "../src/banners/interfaces/banner.interface.ts",
+      "../src/banners/schemas/banner.schema.ts",
       "../src/categories/categories.controller.ts",
       "../src/categories/categories.module.ts",
       "../src/categories/categories.service.ts",
@@ -11562,12 +11864,24 @@
       "../src/products/products.module.ts",
       "../src/products/products.service.ts",
       "../src/products/schemas/product.schema.ts",
+      "../src/push/dto/push.dto.ts",
+      "../src/push/interfaces/push.interface.ts",
+      "../src/push/push.controller.ts",
+      "../src/push/push.module.ts",
+      "../src/push/push.service.ts",
+      "../src/push/schemas/push.schema.ts",
       "../src/services/services.controller.ts",
       "../src/services/services.module.ts",
       "../src/services/services.service.ts",
       "../src/talents/talents.module.ts",
       "../src/talents/talents/talents.controller.ts",
       "../src/talents/talents/talents.service.ts",
+      "../src/tokens/dto/token.dto.ts",
+      "../src/tokens/interfaces/token.interface.ts",
+      "../src/tokens/schemas/token.schema.ts",
+      "../src/tokens/tokens.controller.ts",
+      "../src/tokens/tokens.module.ts",
+      "../src/tokens/tokens.service.ts",
       "../src/transf/dto/transf.dto.ts",
       "../src/transf/interfaces/transf.interface.ts",
       "../src/transf/schemas/transf.schema.ts",

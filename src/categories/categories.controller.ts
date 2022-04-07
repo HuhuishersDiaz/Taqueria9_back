@@ -36,5 +36,8 @@ export class CategoriesController {
         console.log(categories);
         return res.status(HttpStatus.OK).json(categories);
     }
+    // update info
+    // update image
+    
 }
 

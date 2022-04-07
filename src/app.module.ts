@@ -17,6 +17,9 @@ import { TransfModule } from './transf/transf.module';
 import { MailModule } from './mail/mail.module';
 import { CategoriesModule } from './categories/categories.module';
 import { PhotosModule } from './photos/photos.module';
+import { PushModule } from './push/push.module';
+import { TokensModule } from './tokens/tokens.module';
+import { BannersModule } from './banners/banners.module';
 
 
 
@@ -32,7 +35,10 @@ import { PhotosModule } from './photos/photos.module';
   TransfModule,
   MailModule,
   CategoriesModule,
-  PhotosModule],
+  PhotosModule,
+  PushModule,
+  TokensModule,
+  BannersModule],
   controllers: [AppController],
   providers: [AppService],
 })

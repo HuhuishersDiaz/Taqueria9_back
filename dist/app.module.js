@@ -23,6 +23,9 @@ const transf_module_1 = require("./transf/transf.module");
 const mail_module_1 = require("./mail/mail.module");
 const categories_module_1 = require("./categories/categories.module");
 const photos_module_1 = require("./photos/photos.module");
+const push_module_1 = require("./push/push.module");
+const tokens_module_1 = require("./tokens/tokens.module");
+const banners_module_1 = require("./banners/banners.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -37,7 +40,10 @@ AppModule = __decorate([
             transf_module_1.TransfModule,
             mail_module_1.MailModule,
             categories_module_1.CategoriesModule,
-            photos_module_1.PhotosModule],
+            photos_module_1.PhotosModule,
+            push_module_1.PushModule,
+            tokens_module_1.TokensModule,
+            banners_module_1.BannersModule],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
     })
