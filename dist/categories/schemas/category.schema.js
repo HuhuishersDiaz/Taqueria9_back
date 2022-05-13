@@ -7,5 +7,6 @@ exports.CategorySchema = new mongoose.Schema({
     name: String,
     details: String,
     image: String,
+    status: Boolean,
 }, { timestamps: true });
 //# sourceMappingURL=category.schema.js.map

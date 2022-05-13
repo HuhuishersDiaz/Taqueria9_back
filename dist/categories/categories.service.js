@@ -30,10 +30,13 @@ let CategoriesService = class CategoriesService {
         const createdCategory = new this.CategoryModel(CategoryDTO);
         return createdCategory.save();
     }
+    async updateCategory(CategoryDTO) {
+        return await this.CategoryModel.updateOne({ _id: CategoryDTO._id }, CategoryDTO);
+    }
 };
 CategoriesService = __decorate([
     common_1.Injectable(),
-    __param(0, mongoose_2.InjectModel('Category')),
+    __param(0, mongoose_2.InjectModel("Category")),
     __metadata("design:paramtypes", [mongoose_1.Model])
 ], CategoriesService);
 exports.CategoriesService = CategoriesService;

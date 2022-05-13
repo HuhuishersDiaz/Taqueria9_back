@@ -16,8 +16,15 @@ exports.PhotosController = void 0;
 const common_1 = require("@nestjs/common");
 const platform_express_1 = require("@nestjs/platform-express");
 const mongodb_1 = require("mongodb");
+const multer_1 = require("multer");
 let PhotosController = class PhotosController {
-    uploadSingle(file) {
+    uploadSingle(res, file) {
+        console.log(file);
+        if (!file) {
+            return res
+                .status(common_1.HttpStatus.OK)
+                .json({ OK: false, message: "no file selected" });
+        }
         const uri = "mongodb://localhost:27017";
         const client = new mongodb_1.MongoClient.connect(uri, function (err, db) {
             if (err)
@@ -28,33 +35,31 @@ let PhotosController = class PhotosController {
                     throw err;
                 console.log("1 document inserted");
             });
+            return res
+                .status(common_1.HttpStatus.OK)
+                .json({ OK: true, filename: file.filename });
         });
-        var fs = require('fs');
-        fs.rename('/var/www/html/taqueria9/uploads/' + file.filename, '/var/www/html/taqueria9/uploads/' + file.originalname, function (err) {
-            if (err)
-                throw err;
-            console.log("file renamed");
-        });
-        console.log(file);
-        console.log(file.originalname);
     }
 };
 __decorate([
     common_1.Post("upload"),
     common_1.UseInterceptors(platform_express_1.FileInterceptor("photo", {
-        dest: "/var/www/html/taqueria9/uploads",
-        fileFilter: function (req, file, cb) {
-            file.filename = file.originalname;
-            cb(null, true);
-        },
+        dest: "/uploads",
+        storage: multer_1.diskStorage({
+            destination: "./uploads/",
+            filename: function (req, file, cb) {
+                file.filename;
+                cb(null, (file.filename = file.originalname));
+            },
+        }),
     })),
-    __param(0, common_1.UploadedFile()),
+    __param(0, common_1.Res()), __param(1, common_1.UploadedFile()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
+    __metadata("design:paramtypes", [Object, Object]),
     __metadata("design:returntype", void 0)
 ], PhotosController.prototype, "uploadSingle", null);
 PhotosController = __decorate([
-    common_1.Controller('photos')
+    common_1.Controller("photos")
 ], PhotosController);
 exports.PhotosController = PhotosController;
 //# sourceMappingURL=photos.controller.js.map

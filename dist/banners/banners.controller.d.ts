@@ -1,5 +1,5 @@
-import { BannersService } from './banners.service';
-import { BannerDTO } from './dto/banner.dto';
+import { BannersService } from "./banners.service";
+import { BannerDTO } from "./dto/banner.dto";
 export declare class BannersController {
     private banner;
     constructor(banner: BannersService);

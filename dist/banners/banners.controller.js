@@ -24,7 +24,7 @@ let BannersController = class BannersController {
         const banners = await this.banner.create(BannerDTO);
         return res.status(common_1.HttpStatus.OK).json({
             message: "Post banner has been created",
-            banners
+            banners,
         });
     }
     async GetAll(res) {
@@ -34,21 +34,21 @@ let BannersController = class BannersController {
     }
 };
 __decorate([
-    common_1.Post('/create'),
+    common_1.Post("/create"),
     __param(0, common_1.Res()), __param(1, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, banner_dto_1.BannerDTO]),
     __metadata("design:returntype", Promise)
 ], BannersController.prototype, "addBanner", null);
 __decorate([
-    common_1.Get('all'),
+    common_1.Get("all"),
     __param(0, common_1.Res()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
 ], BannersController.prototype, "GetAll", null);
 BannersController = __decorate([
-    common_1.Controller('banners'),
+    common_1.Controller("banners"),
     __metadata("design:paramtypes", [banners_service_1.BannersService])
 ], BannersController);
 exports.BannersController = BannersController;

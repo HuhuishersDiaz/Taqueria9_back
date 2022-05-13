@@ -21,10 +21,21 @@ let CategoriesController = class CategoriesController {
         this.category = category;
     }
     async addCategory(res, CategoryDTO) {
+        delete CategoryDTO._id;
+        console.log(CategoryDTO.status);
+        const existsCode = await this.category.getCategory(CategoryDTO.code);
+        console.error(existsCode.length);
+        if (existsCode.length > 0) {
+            return res.status(common_1.HttpStatus.OK).json({
+                OK: false,
+                message: "Code already exits",
+            });
+        }
         const categories = await this.category.create(CategoryDTO);
         return res.status(common_1.HttpStatus.OK).json({
+            OK: true,
             message: "Post category has been created",
-            categories
+            categories,
         });
     }
     async GetCategory(res, code) {
@@ -35,33 +46,45 @@ let CategoriesController = class CategoriesController {
     }
     async GetAll(res) {
         const categories = await this.category.getAll();
-        console.log(categories);
         return res.status(common_1.HttpStatus.OK).json(categories);
+    }
+    async updateCategory(res, CategoryDTO) {
+        console.log(CategoryDTO);
+        let data = await this.category.updateCategory(CategoryDTO);
+        console.log(data);
+        return res.status(common_1.HttpStatus.OK).json({ OK: true });
     }
 };
 __decorate([
-    common_1.Post('/create'),
+    common_1.Post("/create"),
     __param(0, common_1.Res()), __param(1, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, category_dto_1.CategoryDTO]),
     __metadata("design:returntype", Promise)
 ], CategoriesController.prototype, "addCategory", null);
 __decorate([
-    common_1.Get('/category/:code'),
-    __param(0, common_1.Res()), __param(1, common_1.Param('code')),
+    common_1.Get("/category/:code"),
+    __param(0, common_1.Res()), __param(1, common_1.Param("code")),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object, String]),
     __metadata("design:returntype", Promise)
 ], CategoriesController.prototype, "GetCategory", null);
 __decorate([
-    common_1.Get('all'),
+    common_1.Get("all"),
     __param(0, common_1.Res()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
 ], CategoriesController.prototype, "GetAll", null);
+__decorate([
+    common_1.Post("/update"),
+    __param(0, common_1.Res()), __param(1, common_1.Body()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, category_dto_1.CategoryDTO]),
+    __metadata("design:returntype", Promise)
+], CategoriesController.prototype, "updateCategory", null);
 CategoriesController = __decorate([
-    common_1.Controller('categories'),
+    common_1.Controller("categories"),
     __metadata("design:paramtypes", [categories_service_1.CategoriesService])
 ], CategoriesController);
 exports.CategoriesController = CategoriesController;
